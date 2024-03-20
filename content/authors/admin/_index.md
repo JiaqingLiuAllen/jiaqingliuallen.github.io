@@ -91,7 +91,7 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:jiaqing@uw.edu
-  - icon: x
+  - icon: newx
     link: https://twitter.com/AllenJLiu
     # label: Follow me on X
     display:
