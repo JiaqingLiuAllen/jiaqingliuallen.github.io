@@ -92,9 +92,9 @@ social:
     icon_pack: fas
     link: mailto:jiaqing@uw.edu
   - icon: x
-    icon_pack: fab
+    icon_pack: ai
     link: https://twitter.com/AllenJLiu
-    label: Follow me on X
+    # label: Follow me on X
     display:
       header: true
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
