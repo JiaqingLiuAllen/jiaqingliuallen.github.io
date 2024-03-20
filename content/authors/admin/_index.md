@@ -22,10 +22,6 @@ role: Master's Student
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: UW ECE
-    url: https://www.ece.uw.edu/
-
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
@@ -40,7 +36,7 @@ education:
       institution: University of Washington, Seattle, WA
       year: 2023 - Present
     - course: BEng in Biomedical Engineering
-      institution: Southwest Jiaotong University, Chengdu, China
+      institution: Southwest Jiaotong University, China
       year: 2019 - 2023
 
 # Social/Academic Networking
@@ -62,15 +58,16 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
-    label: Click to see Jiaqing's CV
-    display:
-      header: true
+
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a first-year Master's student at the <a href='https://www.ece.uw.edu/'>Department of Electrical and Computer Engineering</a>, University of Washington. My interests are in health sensing, ubiquitous computing and human-machine interaction.
+
+Before joining UW, I obtained my Bachelor's degree in Biomedical Engineering from Southwest Jiaotong University, where I was advised by <a href='https://scholar.google.com/citations?hl=en&user=3X-4YmUAAAAJ&view_op=list_works'>Prof. Weili Deng</a>. I was also fortunate to work with <a href='https://scholar.google.com/citations?hl=en&user=08JS9C0AAAAJ'>Prof. Weiqing Yang</a>.
+
+<strong style="color: #9c0000;">I'm actively seeking research assistant positions for the Spring, Summer, and Fall quarters of 2024!</strong>
+
+Please feel free to contact me at: jiaqing[at]uw[dot]edu.
 {style="text-align: justify;"}
