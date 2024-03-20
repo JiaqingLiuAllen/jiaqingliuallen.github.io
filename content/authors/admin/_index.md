@@ -43,46 +43,6 @@ education:
       institution: Southwest Jiaotong University, Chengdu, China
       year: 2019 - 2023
 
-# Skills
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-# skills:
-#   - name: Technical
-#     items:
-#       - name: Python
-#         description: ''
-#         percent: 80
-#         icon: python
-#         icon_pack: fab
-#       - name: Data Science
-#         description: ''
-#         percent: 100
-#         icon: chart-line
-#         icon_pack: fas
-#       - name: SQL
-#         description: ''
-#         percent: 40
-#         icon: database
-#         icon_pack: fas
-#   - name: Hobbies
-#     color: '#eeac02'
-#     color_border: '#f0bf23'
-#     items:
-#       - name: Hiking
-#         description: ''
-#         percent: 60
-#         icon: person-hiking
-#         icon_pack: fas
-#       - name: Cats
-#         description: ''
-#         percent: 100
-#         icon: cat
-#         icon_pack: fas
-#       - name: Photography
-#         description: ''
-#         percent: 80
-#         icon: camera-retro
-#         icon_pack: fas
-
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -93,25 +53,21 @@ social:
     link: mailto:jiaqing@uw.edu
   - icon: newx
     link: https://twitter.com/AllenJLiu
-    # label: Follow me on X
-    display:
-      header: true
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: ai
     link: https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=2&user=proqOJ0AAAAJ
   - icon: github
     icon_pack: fab
     link: https://github.com/JiaqingLiuAllen
-  # - icon: linkedin
-  #   icon_pack: fab
-  #   link: https://www.linkedin.com/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
-
+    label: Click to see Jiaqing's CV
+    display:
+      header: true
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
