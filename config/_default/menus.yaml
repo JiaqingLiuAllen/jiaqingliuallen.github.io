@@ -4,20 +4,20 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
+  - name: About
     url: '#about'
     weight: 10
-  - name: Posts
-    url: '#posts'
-    weight: 20
   - name: Projects
     url: '#projects'
-    weight: 30
-  - name: CV
-    url: static/uploads/resume.pdf
-    weight: 40
+    weight: 20
   - name: Publications
-    url: '#featured'
+    url: '#pubs'
+    weight: 30
+  - name: News
+    url: '#news'
+    weight: 40
+  - name: CV
+    url: uploads/resume.pdf
     weight: 50
   - name: Contact
     url: '#contact'
