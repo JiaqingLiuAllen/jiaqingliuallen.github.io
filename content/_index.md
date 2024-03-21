@@ -200,7 +200,7 @@ sections:
     id: gallery
     content:
       title: Gallery
-      subtitle: 'Here are some pictures I've taken over the years! 😀'
+      subtitle: ''
       text: |-
         {{< gallery album="demo" >}}
     design:
