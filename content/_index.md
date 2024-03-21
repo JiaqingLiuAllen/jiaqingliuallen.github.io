@@ -90,8 +90,8 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - date_end: '2022'
-          date_start: '2020'
+        - date_end: '2022-12-01'
+          date_start: '2020-12-01'
           description: ''
           icon: swjtu
           organization: Southwest Jiaotong University
