@@ -117,8 +117,10 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
+        - name: Software
+          tag: Software
+        - name: Hardware
+          tag: Hardware
         - name: Other
           tag: Demo
     design:
@@ -198,7 +200,7 @@ sections:
     id: gallery
     content:
       title: Gallery
-      subtitle: ''
+      subtitle: 'Here are some pictures I've taken over the years! 😀'
       text: |-
         {{< gallery album="demo" >}}
     design:

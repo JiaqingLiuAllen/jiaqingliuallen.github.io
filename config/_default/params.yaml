@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© Copyright {year} Jiaqing Liu.'
+    notice: 'Copyright © {year} Jiaqing Liu.'
     license:
       enable: false
       allow_derivatives: false
