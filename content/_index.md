@@ -72,7 +72,7 @@ sections:
           company_logo: org-x
           location: Chengdu, China
           date_start: '2021-09-01'
-          date_end: '2023-6-30'
+          date_end: '2023-06-30'
           description: SWJTU.
     design:
       columns: '2'
