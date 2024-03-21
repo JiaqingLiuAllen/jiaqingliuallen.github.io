@@ -42,6 +42,7 @@ sections:
       title: 
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+  
   - block: experience
     content:
       title: Experience
@@ -77,6 +78,7 @@ sections:
           description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
+  
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -129,6 +131,7 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+  
   - block: markdown
     content:
       title: Gallery
@@ -137,6 +140,7 @@ sections:
         {{< gallery album="demo" >}}
     design:
       columns: '1'
+  
   - block: collection
     id: featured
     content:
@@ -148,6 +152,7 @@ sections:
     design:
       columns: '2'
       view: card
+  
   - block: collection
     content:
       title: Recent Publications
@@ -162,6 +167,7 @@ sections:
     design:
       columns: '2'
       view: citation
+  
   - block: collection
     id: talks
     content:
@@ -205,28 +211,19 @@ sections:
     id: contact
     content:
       title: Contact
-      subtitle:
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
       email: jiaqing [at] uw [dot] edu
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
+        street: 185 Stevens Way NE
+        city: Seattle
+        region: WA
+        postcode: '98195'
         country: United States
         country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
+        latitude: '47.65335'
+        longitude: '-122.30569'  
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
