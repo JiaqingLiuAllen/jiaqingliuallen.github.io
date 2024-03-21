@@ -1,8 +1,9 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: CheerUp
+summary: A Raspberry Pi system that detects users' facial emotions and automatically plays mood-responsive music, aiming to uplift and improve mental health..
 tags:
-  - Deep Learning
+  - Software
+  - Hardware
 date: '2016-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
