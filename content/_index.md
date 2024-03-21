@@ -36,6 +36,7 @@ sections:
         gradient_end: '#1976d2'
         gradient_start: '#004ba0'
         text_color_light: true
+ 
   - block: about.biography
     id: about
     content:
@@ -57,25 +58,22 @@ sections:
       items:
         - title: Novo Nordisk
           company: Machine Learning Engineering Intern (Capstone)
-          company_url: 'https://www.novonordisk.com/'
           company_logo: novonordisk
           location: Seattle, WA
           date_start: '2024-01-01'
           date_end: ''
           description: |2-
               SCD Provider Chatbot
-
               * Analysing
               * Modelling
               * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
+        - title: Wearable Healthcare Lab, Southwest Jiatong University
+          company: Research Assistant
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Chengdu, China
+          date_start: '2021-09-01'
+          date_end: '2023-6-30'
+          description: SWJTU.
     design:
       columns: '2'
   
@@ -92,13 +90,11 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
+        - date_end: '2022'
+          date_start: '2020'
           description: ''
-          icon: coursera
+          icon: swjtu
           organization: Southwest Jiaotong University
-          organization_url: https://www.coursera.org
           title: Two-time Academic Excellence Scholarships
           url: ''
     design:
@@ -132,17 +128,8 @@ sections:
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
   
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
-  
   - block: collection
-    id: featured
+    id: publications
     content:
       title: Featured Publications
       filters:
@@ -206,6 +193,16 @@ sections:
       # Choose a layout view
       view: compact
       columns: '2'
+    
+  - block: markdown
+    id: gallery
+    content:
+      title: Gallery
+      subtitle: ''
+      text: |-
+        {{< gallery album="demo" >}}
+    design:
+      columns: '1'
   
   - block: contact
     id: contact
