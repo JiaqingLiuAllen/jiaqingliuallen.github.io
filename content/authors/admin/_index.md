@@ -47,7 +47,7 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:jiaqing@uw.edu
-  - icon: /brands/newx
+  - icon: xlogo
     link: https://twitter.com/AllenJLiu
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: ai
