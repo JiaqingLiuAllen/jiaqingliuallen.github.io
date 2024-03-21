@@ -224,16 +224,6 @@ sections:
       coordinates:
         latitude: '47.65335'
         longitude: '-122.30569'  
-      # Automatically link email and phone or display as text?
-      autolink: true
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
     design:
       columns: '2'
 ---
