@@ -33,7 +33,7 @@ interests:
 education:
   courses:
     - course: MS in Electrical and Computer Engineering
-      institution: University of Washington, Seattle, WA
+      institution: University of Washington, Seattle
       year: 2023 - Present
     - course: BEng in Biomedical Engineering
       institution: Southwest Jiaotong University, China
@@ -47,12 +47,12 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:jiaqing@uw.edu
-  - icon: twitter
-    icon_pack: devicon
-    link: https://twitter.com/AllenJLiu
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: ai
     link: https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=2&user=proqOJ0AAAAJ
+  - icon: x-twitter
+    icon_pack: fab
+    link: https://twitter.com/AllenJLiu
   - icon: github
     icon_pack: fab
     link: https://github.com/JiaqingLiuAllen
