@@ -28,7 +28,7 @@ interests:
   - Health Sensing
   - Accessibility
   - Ubiquitous Computing
-  ☕️ Human-Computer Interaction
+  - Human-Computer Interaction
 
 # Education to show in About widget
 education:
