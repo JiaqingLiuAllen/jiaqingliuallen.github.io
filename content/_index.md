@@ -56,24 +56,22 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Novo Nordisk
-          company: Machine Learning Engineering Intern (Capstone)
+        - title: Machine Learning Engineer, UW Capstone
+          company: Novo Nordisk
           company_logo: novonordisk
+          # company_url: 
           location: Seattle, WA
           date_start: '2024-01-01'
           date_end: ''
           description: |2-
-              SCD Provider Chatbot
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Wearable Healthcare Lab, Southwest Jiatong University
-          company: Research Assistant
-          company_logo: org-x
+
+        - title: Research Assistant
+          company: Wearable Healthcare Lab, Southwest Jiaotong University
+          company_logo: swjtu
           location: Chengdu, China
           date_start: '2021-09-01'
           date_end: '2023-06-30'
-          description: SWJTU.
+          description: Advised by Prof. Weili Deng and Prof. Weiqing Yang
     design:
       columns: '2'
   
