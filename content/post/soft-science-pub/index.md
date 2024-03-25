@@ -1,6 +1,6 @@
 ---
-summary: I am joining UW ECE as a Master's student this fall!
-date: '2023-04-01'
+summary: Our article on the applications of flexible piezoelectric devices in human-machine interactions has been accepted by Soft Science!
+date: '2022-12-08'
 ---
 
 <!--

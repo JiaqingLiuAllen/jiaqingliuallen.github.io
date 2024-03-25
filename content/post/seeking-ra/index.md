@@ -1,6 +1,6 @@
 ---
-summary: Our article on the applications of flexible piezoelectric devices in human-machine interactions has been accepted by Soft Science!
-date: '2022-12-08'
+summary: I’m actively seeking research assistant positions for the Spring, Summer, and Fall quarters of 2024. If your lab has any forthcoming openings, I would be deeply grateful if you could kindly consider reaching out to me at jiaqing[at]uw[dot]edu. I would sincerely appreciate any assistance or guidance you could offer, thank you!
+date: '2024-03-25'
 ---
 
 <!--
