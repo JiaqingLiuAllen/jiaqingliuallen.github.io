@@ -44,12 +44,12 @@ Initially, the project was configured to playback songs that were manually selec
 
 A key feature was made in how music playback is handled post-emotion detection. Now, once an emotion is identified and a corresponding playlist starts, the music continues for five minutes. This approach effectively avoids the instability of changing music with every emotional shift. Instead, it provides a stable and soothing auditory experience by maintaining a consistent playlist for a set duration.
 
-You can click the following picture to see the demo on YouTube! 😃
+You can click the following picture to see the **demo video** on YouTube! 😃
 [![Demo](https://img.youtube.com/vi/XFz4RYfaeB8/0.jpg)](https://www.youtube.com/watch?v=XFz4RYfaeB8)
 
-I am currently designing a GUI to make this project more accessible and user-friendly for users without relevant technical knowledge.
+I am currently designing a GUI to make this project more accessible and user-friendly for users without previous technical knowledge in this field.
 
-References: 
+References:  
 [1] https://www.kaggle.com/datasets/msambare/fer2013  
 [2] https://circuitdigest.com/microcontroller-projects/raspberry-pi-based-emotion-recognition-using-opencv-tensorflow-and-keras  
 [3] https://spotipy.readthedocs.io/en/2.22.1/
