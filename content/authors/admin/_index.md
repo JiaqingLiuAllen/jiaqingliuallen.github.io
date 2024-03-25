@@ -69,7 +69,5 @@ I am a first-year Master's student at the <a href='https://www.ece.uw.edu/'>Depa
 
 Before joining UW, I obtained my Bachelor's degree in Biomedical Engineering from Southwest Jiaotong University, where I was advised by <a href='https://scholar.google.com/citations?hl=en&user=3X-4YmUAAAAJ&view_op=list_works'>Prof. Weili Deng</a>. I was also fortunate to work with <a href='https://scholar.google.com/citations?hl=en&user=08JS9C0AAAAJ'>Prof. Weiqing Yang</a>.
 
-<strong style="color: #9c0000;">I'm actively seeking research assistant positions for the Spring, Summer, and Fall quarters of 2024!</strong> If your lab has any forthcoming openings, I would be deeply grateful if you could kindly consider reaching out to me at: jiaqing[at]uw[dot]edu. I would sincerely appreciate any assistance or guidance you could offer, thank you!
-
-Please feel free to contact me at: jiaqing[at]uw[dot]edu.
+<strong style="color: #9c0000;">I'm actively seeking research assistant positions for the Spring, Summer, and Fall quarters of 2024!</strong> If your lab anticipates openings, I would greatly appreciate the opportunity to discuss potential involvement. Please contact me at <a href='mailto:jiaqing@uw.edu'>jiaqing[at]uw[dot]edu</a>. Thank you for considering my application.
 {style="text-align: justify;"}
