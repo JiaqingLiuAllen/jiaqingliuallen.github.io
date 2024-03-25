@@ -57,7 +57,7 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Machine Learning Engineer, UW Capstone
-          company: Novo Nordisk
+          company: Novo Nordisk Inc.
           company_logo: novonordisk
           # company_url: 
           location: Seattle, WA
@@ -93,7 +93,7 @@ sections:
           description: ''
           icon: swjtu
           organization: Southwest Jiaotong University
-          title: Two-time Academic Excellence Scholarships
+          title: SWJTU Two-Time Academic Excellence Scholarship
           url: ''
     design:
       columns: '2'
