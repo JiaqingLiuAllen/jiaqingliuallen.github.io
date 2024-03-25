@@ -1,5 +1,5 @@
 ---
-title: Our article on the applications of flexible piezoelectric devices in human-machine interactions has been accepted by Soft Science!
+summary: Our article on the applications of flexible piezoelectric devices in human-machine interactions has been accepted by Soft Science!
 date: '2022-12-08'
 ---
 
