@@ -20,7 +20,7 @@ publishDate: ""
 publication: "Soft Science"
 publication_short: ""
 
-abstract: Human-machine interactions are becoming increasingly required for intelligent sensing and effective manipulation. Recent developments in flexible piezoelectric sensors with short response time and high force-electric interconversion efficiency present a tendency toward facilitating diverse human-machine interactive applications. Here, we review the development of flexible piezoelectric human-machine interactions in the context of robotic control, the Internet of Things, sports coaching and acoustic therapeutics. The synthesis of unique materials, the distinct design of device structures, the typical applications of piezoelectric human-machine interactions and the integration of cutting-edge technologies are elaborated in detail based on recent research. Finally, we highlight the current challenges and directions for the development of piezoelectric human-machine interactions for more advanced application scenarios.
+abstract: Soft Science 2022.
 
 # Summary. An optional shortened abstract.
 # summary:
