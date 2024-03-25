@@ -25,9 +25,6 @@ abstract: Human-machine interactions are becoming increasingly required for inte
 # Summary. An optional shortened abstract.
 # summary:
 
-tags:
-- Source Themes
-featured: false
 
 # links:
 # - name: ""
@@ -54,7 +51,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 # projects: []
-
+<a href='https://f.oaes.cc/xmlpdf/e5513ded-88f2-4c95-a5e3-5fc66ebd50ad/5316.pdf'>Full Text</a>
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
