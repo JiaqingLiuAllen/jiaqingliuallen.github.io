@@ -65,7 +65,7 @@ social:
 highlight_name: true
 ---
 
-I am a first-year Master's student at the <a href='https://www.ece.uw.edu/'>Department of Electrical and Computer Engineering</a>, University of Washington. My interests are in health sensing, accessibility, ubiquitous computing and human-machine interaction.
+I am a first-year Master's student at the <a href='https://www.ece.uw.edu/'>Department of Electrical and Computer Engineering</a>, University of Washington. My interests are in health sensing, accessibility, ubiquitous computing and human-computer interaction.
 
 Before joining UW, I obtained my Bachelor's degree in Biomedical Engineering from Southwest Jiaotong University, where I was advised by <a href='https://scholar.google.com/citations?hl=en&user=3X-4YmUAAAAJ&view_op=list_works'>Prof. Weili Deng</a>. I was also fortunate to work with <a href='https://scholar.google.com/citations?hl=en&user=08JS9C0AAAAJ'>Prof. Weiqing Yang</a>.
 

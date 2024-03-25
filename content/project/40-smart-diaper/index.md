@@ -1,6 +1,6 @@
 ---
 title: Smart Diaper for Alzheimer's Patients
-summary: An example of linking directly to an external project website using `external_link`.
+summary: A smart diaper system designed to detect incontinence in Alzheimer's patients and send alerts to caregivers' mobile phones, ensuring timely diaper changes. This helps prevent skin diseases in patients by avoiding prolonged exposure to humidity.
 tags:
   - Software
   - Hardware

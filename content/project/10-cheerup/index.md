@@ -30,7 +30,7 @@ url_video: 'https://youtu.be/XFz4RYfaeB8?si=VKay9ufLH9-NCBAb'
 #   Otherwise, set `slides = ""`.
 # slides: Slides
 ---
-Key words: Raspberry Pi, Computer Vision, Emotion Recognition, Music Therapy, HCI.
+**Key words:** Raspberry Pi, Computer Vision, Emotion Recognition, Music Therapy, HCI.
 
 This project, CheerUp, is a pioneering response to the largely untapped potential of using computing to offer emotional support and enhance mental well-being, situated at the fascinating intersection of technology and psychological health support. By harnessing the compact and versatile Raspberry Pi 4 platform, it integrates emotional recognition with personalized music therapy. Utilizing facial expression analysis, the system detects the user's emotional state in real time and plays music from corresponding Spotify playlist specifically tailored to either enhance or complement the current emotion. Leveraging pre-trained machine learning models, OpenCV library, API integration, and real-time system monitoring, CheerUp aims to provide immediate emotional support, thus contributing significantly to the improvement of the user's mental well-being.
 
