@@ -46,7 +46,10 @@ A key feature was made in how music playback is handled post-emotion detection. 
 
 [![Demo](https://img.youtube.com/vi/XFz4RYfaeB8/0.jpg)](https://www.youtube.com/watch?v=XFz4RYfaeB8)
 
-
+Reference: 
+[1] https://www.kaggle.com/datasets/msambare/fer2013
+[2] https://circuitdigest.com/microcontroller-projects/raspberry-pi-based-emotion-recognition-using-opencv-tensorflow-and-keras
+[3] https://spotipy.readthedocs.io/en/2.22.1/
 
 
 
