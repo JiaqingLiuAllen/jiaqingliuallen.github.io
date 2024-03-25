@@ -1,5 +1,5 @@
 ---
-title: Smart Diaper
+title: Smart Diaper for Alzheimer's Patients
 summary: An example of linking directly to an external project website using `external_link`.
 tags:
   - Software
