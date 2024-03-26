@@ -30,9 +30,9 @@ url_video: ''
 
 Sickle Cell Disease (SCD) is a rare, genetically inherited disease. Currently, there are about 100,000 SCD patients in the US. However, only a few emergency medicine doctors have received comprehensive training on how to treat them. We are designing a mobile chatbot app to assist doctors without prior knowledge of SCD in querying relevant information from official clinical practice guidelines published by the American Society of Hematology, enabling them to treat SCD patients promptly. To better understand the current challenges in this field, we have conducted **interviews** with several SCD physicians from three different states. We appreciate their voluntary assistance.
 
-![system-design](system-design.jpg)
+![system-design](profile.jpg)
 
-The system design of this chatbot application is outlined as follows: Initially, administrators upload verified official SCD guidelines and documents to an AWS S3 bucket for cloud storage. Subsequently, the stored text data is processed by the OpenAI API to create text embeddings, which are then stored in a Pinecone vector database. When a physician enters prompts in the chat window, the app queries the vector database to search for similar embeddings. These similar embeddings are retrieved and decoded into text answers, providing doctors with immediate consultative support for patient treatment.
+The system design of this chatbot application is outlined as follows: Initially, administrators upload verified official SCD guidelines and documents to an **AWS S3** bucket for cloud storage. Subsequently, the stored text data is processed by the **OpenAI API** to create text embeddings, which are then stored in a **Pinecone** vector database. When a physician enters prompts in the chat window, the app queries the vector database to search for similar embeddings. These similar embeddings are retrieved and decoded into text answers, providing doctors with immediate consultative support for patient treatment.
 
 ![parsing](parsing.jpg)
 
