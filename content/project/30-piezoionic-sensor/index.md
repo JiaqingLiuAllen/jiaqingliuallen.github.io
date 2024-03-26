@@ -3,6 +3,7 @@ title: Piezo-ionic Hydrogel-based Tactile Panels
 summary: A novel self-powered tactile sensor based on polyacrylamide hydrogels.
 tags:
   - Hardware
+  - Research
 date: "2023-06-10T00:00:00Z"
 
 
@@ -23,7 +24,7 @@ url_video: ''
 ---
 **Key words:** Piezo-ionic Hydrogel, Tactile Sensing, Fabrication, Flexible Electronics.
 
-This project, CheerUp, is a pioneering response to the largely untapped potential of using computing to offer emotional support and enhance mental well-being, situated at the fascinating intersection of technology and psychological health support. By harnessing the compact and versatile **Raspberry Pi 4** platform, it integrates emotional recognition with personalized music therapy. Utilizing facial expression analysis, the system detects the user's emotional state in real time and plays music from corresponding Spotify playlist specifically tailored to either enhance or complement the current emotion. Leveraging pre-trained **machine learning** models, **OpenCV** library, **Spotify API** integration, and real-time system monitoring, CheerUp aims to provide immediate emotional support, thus contributing significantly to the improvement of the user's mental well-being.
+<!-- This project, CheerUp, is a pioneering response to the largely untapped potential of using computing to offer emotional support and enhance mental well-being, situated at the fascinating intersection of technology and psychological health support. By harnessing the compact and versatile **Raspberry Pi 4** platform, it integrates emotional recognition with personalized music therapy. Utilizing facial expression analysis, the system detects the user's emotional state in real time and plays music from corresponding Spotify playlist specifically tailored to either enhance or complement the current emotion. Leveraging pre-trained **machine learning** models, **OpenCV** library, **Spotify API** integration, and real-time system monitoring, CheerUp aims to provide immediate emotional support, thus contributing significantly to the improvement of the user's mental well-being.
 
 ![system-arch](system-arch.jpg)
 
@@ -38,7 +39,7 @@ A key feature was made in how music playback is handled post-emotion detection. 
 You can click the following picture to see the **demo video** on YouTube! 😃
 [![Demo](https://img.youtube.com/vi/XFz4RYfaeB8/0.jpg)](https://www.youtube.com/watch?v=XFz4RYfaeB8)
 
-I am currently designing a GUI to make this project more accessible and user-friendly for users without previous technical knowledge in this field.
+I am currently designing a GUI to make this project more accessible and user-friendly for users without previous technical knowledge in this field. -->
 
 **Acknowledgement**:  
-I'd like to express my sincere gratitude to Prof. Weili Deng for his advisement on this thesis and Prof. Weiqing Yang for providing lab environments for relevant experiments.
+I would like to express my sincere gratitude to Prof. Weili Deng for his guidance on this thesis and to Prof. Weiqing Yang for providing the laboratory environment for the relevant experiments.

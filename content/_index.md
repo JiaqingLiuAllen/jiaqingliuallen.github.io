@@ -115,6 +115,8 @@ sections:
       buttons:
         - name: All
           tag: '*'
+        - name: Research
+          tag: Research
         - name: Software
           tag: Software
         - name: Hardware

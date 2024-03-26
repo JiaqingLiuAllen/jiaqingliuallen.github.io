@@ -28,7 +28,7 @@ url_video: ''
 
 **Key words:** Mobile App, Chatbot, Sickle Cell Disease.
 
-Sickle Cell Disease (SCD) is a rare, genetically inherited disease. Currently, there are about 100,000 SCD patients in the US. However, only a few emergency medicine doctors have received comprehensive training on how to treat them. We are designing a mobile chatbot app to assist doctors without prior knowledge of SCD in querying relevant information from official clinical practice guidelines published by the American Society of Hematology, enabling them to treat SCD patients promptly. To better understand the current challenges in this field, we have conducted **interviews** with several SCD physicians from three different states. We appreciate their voluntary assistance.
+Sickle Cell Disease (SCD) is a rare, genetically inherited disease. Currently, there are about 100,000 SCD patients in the US. However, only a few emergency medicine doctors have received comprehensive training on how to treat them. We are designing a mobile chatbot app to assist doctors without prior knowledge of SCD in querying relevant information from official clinical practice guidelines published by the American Society of Hematology, enabling them to treat SCD patients promptly. To better understand the current challenges in this field, we have conducted **interviews** with several SCD physicians from three different states in the US. We appreciate their voluntary assistance.
 
 ![system-design](system-design.jpg)
 
