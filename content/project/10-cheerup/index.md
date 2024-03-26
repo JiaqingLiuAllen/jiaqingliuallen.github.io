@@ -32,7 +32,7 @@ url_video: 'https://youtu.be/XFz4RYfaeB8?si=VKay9ufLH9-NCBAb'
 ---
 **Key words:** Raspberry Pi, Computer Vision, Emotion Recognition, Music Therapy, HCI.
 
-This project, CheerUp, is a pioneering response to the largely untapped potential of using computing to offer emotional support and enhance mental well-being, situated at the fascinating intersection of technology and psychological health support. By harnessing the compact and versatile Raspberry Pi 4 platform, it integrates emotional recognition with personalized music therapy. Utilizing facial expression analysis, the system detects the user's emotional state in real time and plays music from corresponding Spotify playlist specifically tailored to either enhance or complement the current emotion. Leveraging pre-trained machine learning models, OpenCV library, API integration, and real-time system monitoring, CheerUp aims to provide immediate emotional support, thus contributing significantly to the improvement of the user's mental well-being.
+This project, CheerUp, is a pioneering response to the largely untapped potential of using computing to offer emotional support and enhance mental well-being, situated at the fascinating intersection of technology and psychological health support. By harnessing the compact and versatile Raspberry Pi 4 platform, it integrates emotional recognition with personalized music therapy. Utilizing facial expression analysis, the system detects the user's emotional state in real time and plays music from corresponding Spotify playlist specifically tailored to either enhance or complement the current emotion. Leveraging pre-trained machine learning models, OpenCV library, Spotify API integration, and real-time system monitoring, CheerUp aims to provide immediate emotional support, thus contributing significantly to the improvement of the user's mental well-being.
 
 ![system-arch](system-arch.jpg)
 
@@ -49,7 +49,7 @@ You can click the following picture to see the **demo video** on YouTube! 😃
 
 I am currently designing a GUI to make this project more accessible and user-friendly for users without previous technical knowledge in this field.
 
-References:  
+**References**:  
 [1] https://www.kaggle.com/datasets/msambare/fer2013  
 [2] https://circuitdigest.com/microcontroller-projects/raspberry-pi-based-emotion-recognition-using-opencv-tensorflow-and-keras  
 [3] https://spotipy.readthedocs.io/en/2.22.1/

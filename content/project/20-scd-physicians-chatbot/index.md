@@ -1,6 +1,6 @@
 ---
 title: Sickle Cell Disease Physician Chatbot
-summary: An interactive, cross-platform mobile chatbot app designed to assist ER doctors, who may lack prior knowledge of Sickle Cell Disease (SCD), by providing them with timely and accurate official clinical guidelines for treating SCD patients.
+summary: An interactive, cross-platform mobile chatbot app designed to assist ER doctors, who may lack prior knowledge of Sickle Cell Disease (SCD), by providing them with timely official clinical guidelines for treating SCD patients.
 tags:
   - Software
 date: "2024-01-01T00:00:00Z"
@@ -28,25 +28,22 @@ url_video: ''
 
 **Key words:** Mobile App, Chatbot, Sickle Cell Disease.
 
-<!-- This project, CheerUp, is a pioneering response to the largely untapped potential of using computing to offer emotional support and enhance mental well-being, situated at the fascinating intersection of technology and psychological health support. By harnessing the compact and versatile Raspberry Pi 4 platform, it integrates emotional recognition with personalized music therapy. Utilizing facial expression analysis, the system detects the user's emotional state in real time and plays music from corresponding Spotify playlist specifically tailored to either enhance or complement the current emotion. Leveraging pre-trained machine learning models, OpenCV library, API integration, and real-time system monitoring, CheerUp aims to provide immediate emotional support, thus contributing significantly to the improvement of the user's mental well-being.
+Sickle Cell Disease (SCD) is a rare, genetically inherited disease. Currently, there are about 100,000 SCD patients in the US. However, only a few emergency medicine doctors have received comprehensive training on how to treat them. We are designing a mobile chatbot app to assist doctors without prior knowledge of SCD in querying relevant information from official clinical practice guidelines published by the American Society of Hematology, enabling them to treat SCD patients promptly. To better understand the current challenges in this field, we have conducted **interviews** with several SCD physicians from three different states. We appreciate their voluntary assistance.
 
-![system-arch](system-arch.jpg)
+![system-design](system-design.jpg)
 
-The architecture of this project commences with the acquisition of video data from a camera. This captured video is segmented into a series of frames, which are subsequently subjected to critical image processing tasks, including conversion to grayscale. This preparatory step is essential for facilitating the subsequent face detection process, utilizing the Haar Cascade classifier. Notably, this classifier demonstrates considerable proficiency in identifying faces within images, regardless of whether the subjects are human, animal, or absent altogether.
+The system design of this chatbot application is outlined as follows: Initially, administrators upload verified official SCD guidelines and documents to an AWS S3 bucket for cloud storage. Subsequently, the stored text data is processed by the OpenAI API to create text embeddings, which are then stored in a Pinecone vector database. When a physician enters prompts in the chat window, the app queries the vector database to search for similar embeddings. These similar embeddings are retrieved and decoded into text answers, providing doctors with immediate consultative support for patient treatment.
 
-![device](device.jpg)
+![parsing](parsing.jpg)
 
-Initially, the project was configured to playback songs that were manually selected and stored within the project directory. This approach, however, was deemed excessively static and somewhat limiting. To enhance the system's flexibility and responsiveness to emotional cues, Spotify integration was introduced. This integration enables the system to dynamically select and play music playlists that correspond to the detected emotions of the user.
+This graph shows how different files are parsed into pure text data and can be utilized by the chatbot.
 
-A key feature was made in how music playback is handled post-emotion detection. Now, once an emotion is identified and a corresponding playlist starts, the music continues for five minutes. This approach effectively avoids the instability of changing music with every emotional shift. Instead, it provides a stable and soothing auditory experience by maintaining a consistent playlist for a set duration.
+![demo](demo.jpg)
 
-You can click the following picture to see the **demo video** on YouTube! 😃
-[![Demo](https://img.youtube.com/vi/XFz4RYfaeB8/0.jpg)](https://www.youtube.com/watch?v=XFz4RYfaeB8)
-
-I am currently designing a GUI to make this project more accessible and user-friendly for users without previous technical knowledge in this field. -->
+We are currently working on the improvement of the chatbot UI and system integration.
 
 **Caution:**  
-This project is still under development and testing, and is **not** open-sourced or intended for clinical use at this time. If you have a relevant need, please consult a professionally licensed doctor in this field.
+This project is still in the initial stages of development and has not undergone any practical testing. It is <strong style="color: #9c0000;">NOT</strong> open-sourced or intended for clinical use at this time. If you have a relevant need, please consult a professionally licensed doctor in this field.
 
-Acknowledgement:  
-I'd like to express my gratitude for the generous support from Novo Nordisk Inc. and the University of Washington Department of Electrical and Computer Engineering. I am fortunate to collaborate with Shen, Tianli, Tejashree, Emily, Yong, and Aurelia on this project.
+**Acknowledgement:**  
+I am fortunate to collaborate with Shen, Tianli, Tejashree, Emily, Yong, and Aurelia on this project. We would like to express our gratitude for the generous support from Novo Nordisk Inc. and the University of Washington Department of Electrical and Computer Engineering.
