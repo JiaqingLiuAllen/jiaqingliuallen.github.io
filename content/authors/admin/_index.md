@@ -23,10 +23,11 @@ role: Master's Student
 organizations:
   - name: UW ECE
 
+
 # Interests to show in About widget
 interests:
-  - Health Sensing
-  - Accessibility
+  - Physiological Sensing
+  - Wearable Healthcare Devices
   - Ubiquitous Computing
   - Human-Computer Interaction
 
@@ -35,8 +36,8 @@ education:
   courses:
     - course: MS in Electrical and Computer Engineering
       institution: University of Washington, Seattle
-      year: 2023 - Present
-    - course: BEng in Biomedical Engineering
+      year: 2023 - 2025 (Expected)
+    - course: BS in Biomedical Engineering
       institution: Southwest Jiaotong University, China
       year: 2019 - 2023
 
@@ -65,9 +66,9 @@ social:
 highlight_name: true
 ---
 
-I am a first-year Master's student at the <a href='https://www.ece.uw.edu/'>Department of Electrical and Computer Engineering</a>, University of Washington. My interests are in health sensing, accessibility, ubiquitous computing and human-computer interaction.
+I am an ECE Master's student working in the <a href='https://ubicomplab.cs.washington.edu/'>UbiComp Lab</a> at the University of Washington. My research interests include wearable sensing devices for healthcare and human-computer interaction.
 
-Before joining UW, I obtained my Bachelor's degree in Biomedical Engineering from Southwest Jiaotong University, where I was advised by <a href='https://scholar.google.com/citations?hl=en&user=3X-4YmUAAAAJ&view_op=list_works'>Prof. Weili Deng</a>. I was also fortunate to work with <a href='https://scholar.google.com/citations?hl=en&user=08JS9C0AAAAJ'>Prof. Weiqing Yang</a>.
+Before coming to UW, I obtained my Bachelor's degree in Biomedical Engineering from Southwest Jiaotong University, advised by <a href='https://scholar.google.com/citations?hl=en&user=3X-4YmUAAAAJ&view_op=list_works'>Prof. Weili Deng</a> and <a href='https://scholar.google.com/citations?hl=en&user=08JS9C0AAAAJ'>Prof. Weiqing Yang</a>. My previous work in the Wearable Electronics Lab primarily focused on flexible piezoelectric sensors for human-machine interfaces. 
 
-<strong style="color: #9c0000;">I'm actively seeking research assistant/intern positions for the Spring, Summer, and Fall quarters of 2024!</strong> If your lab anticipates openings, I would greatly appreciate the opportunity to discuss potential involvement. Please contact me at <a href='mailto:jiaqing@uw.edu'>jiaqing[at]uw[dot]edu</a>. Thank you for considering my application.
+Please feel free to contact me at <a href='mailto:jiaqing@uw.edu'>jiaqing[at]uw[dot]edu</a>!
 {style="text-align: justify;"}
