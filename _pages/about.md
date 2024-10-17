@@ -2,12 +2,12 @@
 layout: about
 title: About
 permalink: /
-subtitle: Department of Electrical and Computer Engineering, University of Washington
+subtitle: Department of Electrical & Computer Engineering, University of Washington
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: false
 
 news: true # includes a list of news items
