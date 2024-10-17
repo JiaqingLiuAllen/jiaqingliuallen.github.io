@@ -2,9 +2,9 @@
   type: map
   contents:
     - name: Full Name
-      value: Jiaqing (Allen) Liu
+      value: Jiaqing Liu
     - name: Contact
-      value: jiaqing[at]uw[dot]edu
+      value: jiaqing AT uw.edu
 
 - title: Education
   type: time_table
@@ -13,18 +13,17 @@
       institution: M.S. in Electrical and Computer Engineering
       year: 2023 - Present
       description:
-        - GPA - 4.0
+        - GPA - 3.97
 
     - title: Southwest Jiaotong University, China
       institution: B.S. in Biomedical Engineering
       year: 2019 - 2023
       description:
-        - GPA - 3.8
-        - Advised by Prof. Weili Deng
+        - Advised by Dr. Weili Deng
 
 - title: Honors
   type: time_table
   contents:
     - year: 2020 - 2022
       items:
-        - Two-time SWJTU Academic Excellence Scholarship recipient
+        - SWJTU Academic Excellence Scholarship
