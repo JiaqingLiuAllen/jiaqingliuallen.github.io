@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Department of Electrical and Computer Engineering, University of Washington.
+subtitle: Department of Electrical and Computer Engineering, University of Washington
 
 profile:
   align: right
@@ -15,15 +15,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm an ECE Master's student working in the <a href='https://ubicomplab.cs.washington.edu/'>Ubicomp Lab</a> at the University of Washington. My current research lies at the intersection of embedded systems and human-centered computing, with the goal of building ubiquitous and accessible novel health sensing systems.
+I'm a Master's student working in the <a href='https://ubicomplab.cs.washington.edu/'>Ubiquitous Computing Lab</a> at UW ECE, advised by <a href='https://people.ece.uw.edu/patel_shwetak/'>Dr. Shwetak Patel</a>. My current research focuses on creating innovative wearable devices for physiological sensing by integrating embedded systems with human-centered computing. I aim to develop technologies that advance health sensing and seamlessly improve daily interactions, making these systems more ubiquitous and accessible for healthcare.
 
-Before coming to UW, I obtained my Bachelor's degree in Biomedical Engineering from Southwest Jiaotong University, advised by <a href='https://scholar.google.com/citations?hl=en&user=3X-4YmUAAAAJ&view_op=list_works'>Dr. Weili Deng</a>. My previous work in the Wearable Electronics Lab primarily focused on flexible electronics and wearable sensors for healthcare and interactions.
+Before joining UW, I earned my Bachelor’s degree in Biomedical Engineering from Southwest Jiaotong University, advised by <a href='https://scholar.google.com/citations?hl=en&user=3X-4YmUAAAAJ&view_op=list_works'>Dr. Weili Deng</a>. During my time at the Wearable Electronics Lab, I specialized in designing and fabricating wearable and on-skin flexible electronic materials and devices for medical diagnostics and human interaction.
 
-I have an interdisciplinary background in Electrical & Computer Engineering, Biomedical Engineering, and Materials Science.
-
-Research interests:
+With an interdisciplinary background in Electrical & Computer Engineering, Biomedical Engineering, and Materials Science, my research interests include:
 
 - Mobile & Wearable Health Sensing
+- Embedded Systems
 - Ubiquitous Computing
-- Machine Learning
 - Human-Computer Interaction

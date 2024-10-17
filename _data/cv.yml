@@ -4,7 +4,7 @@
     - name: Full Name
       value: Jiaqing Liu
     - name: Contact
-      value: jiaqing AT uw.edu
+      value: jiaqing at uw.edu
 
 - title: Education
   type: time_table
@@ -13,17 +13,16 @@
       institution: M.S. in Electrical and Computer Engineering
       year: 2023 - Present
       description:
-        - GPA - 3.97
+        - Advised by Dr. Shwetak Patel
 
     - title: Southwest Jiaotong University, China
       institution: B.S. in Biomedical Engineering
       year: 2019 - 2023
       description:
         - Advised by Dr. Weili Deng
-
-- title: Honors
-  type: time_table
-  contents:
-    - year: 2020 - 2022
-      items:
-        - SWJTU Academic Excellence Scholarship
+# - title: Honors
+#   type: time_table
+#   contents:
+#     - year: 2020 - 2022
+#       items:
+#         - SWJTU Academic Excellence Scholarship
