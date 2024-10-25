@@ -21,7 +21,7 @@ Before joining UW, I earned my Bachelor’s degree in Biomedical Engineering fro
 
 With an interdisciplinary background in Electrical & Computer Engineering, Biomedical Engineering, and Materials Science, my research interests include:
 
-- Mobile & Wearable Health Sensing
-- Embedded Systems
+- Health Sensing
+- Mobile/Wearable Computing
 - Ubiquitous Computing
 - Human-Computer Interaction

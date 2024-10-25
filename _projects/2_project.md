@@ -4,7 +4,7 @@ title: SCD Physician Chatbot
 description: a chatbot app designed to assist ER doctors in accessing accurate and timely clinical guidelines to treat patients with sickle cell disease (SCD).
 img: assets/img/3.jpg
 importance: 2
-category: Research
+category: General
 giscus_comments: true
 ---
 
