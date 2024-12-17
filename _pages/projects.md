@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: This page is still under maintanence, more cool projects coming!
+description: This page is still under maintenance, more cool projects coming!
 nav: true
 nav_order: 2
 display_categories: [Research, General]
