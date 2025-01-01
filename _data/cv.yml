@@ -12,10 +12,16 @@
     - title: University of Washington, Seattle
       institution: M.S. in Electrical and Computer Engineering
       year: 2023 - Present
+      items:
+        - Advisor: Dr. Shwetak Patel
+        - Research: Mobile Health Sensing, Ubiquitous Computing, Human-Computer Interaction
 
     - title: Southwest Jiaotong University, China
       institution: B.Eng. in Biomedical Engineering
       year: 2019 - 2023
+      items:
+        - Advisor: Dr. Weili Deng
+        - Research: Flexible Electronics, Wearable Devices
 # - title: Honors
 #   type: time_table
 #   contents:

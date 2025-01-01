@@ -1,11 +1,10 @@
 ---
 layout: page
-title: SCD Physician Chatbot
-description: a mobile chatbot to provide ER physicians with quick access to sickle cell disease clinical treatment guidelines.
-img: assets/img/3.jpg
-importance: 6
-category: General
-giscus_comments: true
+title: DiaperSense
+description: a smart incontinence detection system utilizing paper-based humidity sensors.
+img: assets/img/7.jpg
+importance: 3
+category: Research
 ---
 
 Every project has a beautiful feature showcase page.

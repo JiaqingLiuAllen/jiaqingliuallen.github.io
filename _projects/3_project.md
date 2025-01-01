@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Piezotouch
-description: a project that redirects to another website
+title: PiezoTouch
+description: self-powered tactile sensing with stretchable piezo-ionic hydrogels.
 img: assets/img/7.jpg
-importance: 3
+importance: 4
 category: Research
 ---
 
