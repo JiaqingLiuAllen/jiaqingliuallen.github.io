@@ -2,7 +2,7 @@
 layout: page
 title: ECG Necklace
 description: a tiny-size, low-power wireless necklace to passively monitor cardiovascular health.
-img: assets/img/7.jpg
+img: assets/img/ecgnecklace.jpg
 importance: 2
 category: Research
 ---

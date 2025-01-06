@@ -2,7 +2,7 @@
 layout: page
 title: SCD Physician Chatbot
 description: a mobile chatbot to provide ER physicians with quick access to sickle cell disease clinical treatment guidelines.
-img: assets/img/3.jpg
+img: assets/img/scd.jpg
 importance: 6
 category: General
 giscus_comments: true

@@ -2,7 +2,7 @@
 layout: page
 title: PiezoTouch
 description: self-powered tactile sensing with stretchable piezo-ionic hydrogels.
-img: assets/img/7.jpg
+img: assets/img/piezotouch.jpg
 importance: 4
 category: Research
 ---

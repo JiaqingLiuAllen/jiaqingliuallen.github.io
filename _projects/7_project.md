@@ -1,10 +1,10 @@
 ---
 layout: page
-title: BP jewelry Network
-description: a wireless ring-and-earring system for continuous monitoring of blood pressure fluctuations using pulse transit time.
-img: assets/img/bpnetwork.jpg
-importance: 1
-category: Research
+title: SmartGuard
+description: a TinyML-powered fall detection system utilizing IMU data.
+img: assets/img/smartguard.jpg
+importance: 7
+category: General
 ---
 
 Every project has a beautiful feature showcase page.
