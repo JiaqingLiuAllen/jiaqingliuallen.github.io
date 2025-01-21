@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper is accepted by Soft Science!
+Our paper is accepted to Soft Science.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am joining UW ECE as a Master's Student!
+I am joining UW ECE as a Master's Student.
