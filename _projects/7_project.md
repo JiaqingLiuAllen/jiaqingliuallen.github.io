@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SmartGuard
-description: a TinyML-powered fall detection system utilizing IMU data.
+description: a TinyML-powered fall detection system using IMU data.
 img: assets/img/smartguard.jpg
 importance: 7
 category: General

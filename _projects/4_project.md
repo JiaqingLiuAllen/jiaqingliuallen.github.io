@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DiaperSense
-description: a smart incontinence detection system utilizing paper-based humidity sensors.
+description: a smart incontinence detection system with paper-based humidity sensors.
 img: assets/img/diapersense.jpg
 importance: 3
 category: Research
