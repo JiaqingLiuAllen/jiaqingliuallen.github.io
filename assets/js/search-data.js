@@ -415,8 +415,14 @@ ninja.data = [{
             },},{id: "news-tada-our-paper-is-accepted-to-soft-science",
           title: ':tada: Our paper is accepted to Soft Science.',
           description: "",
+          section: "News",},{id: "news-cherry-blossom-moved-to-seattle",
+          title: ':cherry_blossom: Moved to Seattle.',
+          description: "",
           section: "News",},{id: "news-tada-ecg-necklace-is-accepted-to-chi-25",
-          title: ':tada: ECG Necklace is accepted to CHI’25.',
+          title: ':tada: ECG Necklace is accepted to CHI ’25.',
+          description: "",
+          section: "News",},{id: "news-four-leaf-clover-moved-to-notre-dame",
+          title: ':four_leaf_clover: Moved to Notre Dame.',
           description: "",
           section: "News",},{id: "projects-cheerup",
           title: 'CheerUp',
@@ -435,17 +441,17 @@ ninja.data = [{
               window.location.href = "/projects/3_project/";
             },},{id: "projects-diapersense",
           title: 'DiaperSense',
-          description: "a smart incontinence detection system utilizing paper-based humidity sensors.",
+          description: "a smart incontinence detection system with paper-based humidity sensors.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-ecg-necklace",
           title: 'ECG Necklace',
-          description: "a tiny-size, low-power wireless necklace to passively monitor cardiovascular health.",
+          description: "a small, low-power wireless necklace to passively monitor cardiovascular health.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-smartguard",
           title: 'SmartGuard',
-          description: "a TinyML-powered fall detection system utilizing IMU data.",
+          description: "a TinyML-powered fall detection system using IMU data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{
