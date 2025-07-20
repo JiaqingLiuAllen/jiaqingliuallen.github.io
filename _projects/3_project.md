@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+title: PiezoTouch
+description: self-powered tactile sensing with stretchable piezo-ionic hydrogels.
+img: assets/img/piezotouch.jpg
+importance: 4
+category: Research
 ---
 
 Every project has a beautiful feature showcase page.

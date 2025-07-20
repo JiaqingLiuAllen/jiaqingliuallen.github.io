@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Smart Wearables | Ubiquitous Computing | Human-Computer Interaction
+subtitle: Wearable & Ubiquitous Computing | Human-Computer Interaction
 
 profile:
   align: right
@@ -29,6 +29,6 @@ latest_posts:
 
 I am a PhD student in <a href='https://cse.nd.edu/'>Computer Science & Engineering</a> at the University of Notre Dame. I am advised by Dr. <a href='https://tingyucheng.com/about'>Tingyu Cheng</a>, and affiliated with the Internet of Matter Lab.
 
-My research focuses on designing intelligent wearable systems that leverage sensors and machine learning to solve real-world problems and create new opportunities in mobile health and human-computer interaction.
+My research focuses on designing intelligent wearable systems that leverage sensors and machine learning to solve real-world problems and create new opportunities in interactive techniques or mobile health.
 
-Previously, I earned my master's in ECE at the University of Washington, where I worked wth Dr. <a href='https://www.cs.washington.edu/people/faculty/shwetak-patel/'>Shwetak Patel</a> at the <a href='https://ubicomplab.cs.washington.edu/'>UW Ubicomp Lab</a>. My work there centered on wearable devices and continuous, passive health sensing. I also have a background in biomedical engineering and novel material sensors.
+Previously, I earned my master's in ECE at the University of Washington, where I worked wth Dr. <a href='https://www.cs.washington.edu/people/faculty/shwetak-patel/'>Shwetak Patel</a> at the <a href='https://ubicomplab.cs.washington.edu/'>UW Ubicomp Lab</a>. My work there centered on wearable devices and continuous, passive health sensing. I also have a background in biomedical engineering and novel material-based sensors.

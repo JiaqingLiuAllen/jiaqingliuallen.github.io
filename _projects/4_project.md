@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: DiaperSense
+description: a smart incontinence detection system utilizing paper-based humidity sensors.
+img: assets/img/diapersense.jpg
 importance: 3
-category: fun
+category: Research
 ---
 
 Every project has a beautiful feature showcase page.

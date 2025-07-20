@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
-importance: 1
-category: work
+title: CheerUp
+description: a Raspberry Pi-based system that recognizes users’ real-time facial emotions and plays mood-responsive music to enhance mental well-being.
+img: assets/img/cheerup.jpg
+importance: 5
+category: General
 related_publications: true
 ---
 
