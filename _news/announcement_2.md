@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 :tada:
-ECG Necklace is accepted to CHI’25.
+<a href='https://dl.acm.org/doi/10.1145/3706598.3713742'>ECG Necklace</a> is accepted to CHI’25.
