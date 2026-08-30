@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Wearable & Ubiquitous Computing  |  Human-Computer Interaction
+subtitle: Wearable Computing, Multimodal Health AI
 
 profile:
   align: right
@@ -27,8 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in <a href='https://cse.nd.edu/'>Computer Science & Engineering</a> at the University of Notre Dame. I am advised by Dr. <a href='https://tingyucheng.com/about'>Tingyu Cheng</a>, and affiliated with the Internet of Matter Lab.
+I am a PhD student in Computer Science & Engineering at the University of Notre Dame. I am advised by Dr. <a href='https://tingyucheng.com/about'>Tingyu Cheng</a>, and affiliated with the <a href='https://www.internetofmatter.org/'>Internet of Matter Lab</a>.
 
-My research focuses on designing intelligent wearable systems that leverage sensors and machine learning to solve real-world problems and offer new opportunities in interactive techniques and mobile health.
+My research focuses on wearable computing and multimodal health AI, with an emphasis on intelligent wearable systems, multimodal AI agents, and time-series models for real-world health sensing and intervention.
 
-Previously, I earned my master's in ECE at the University of Washington, where I worked wth Dr. <a href='https://www.cs.washington.edu/people/faculty/shwetak-patel/'>Shwetak Patel</a> at the <a href='https://ubicomplab.cs.washington.edu/'>UW Ubicomp Lab</a>. My work there centered on wearable devices and low-power, continuous health sensing. I also have a background in biomedical engineering and novel material-based sensors.
+Previously, I earned my master's in ECE at the University of Washington, where I worked with Dr. <a href='https://www.cs.washington.edu/people/faculty/shwetak-patel/'>Shwetak Patel</a> at the <a href='https://ubicomplab.cs.washington.edu/'>UW Ubicomp Lab</a>. My work there centered on wearable devices and low-power, continuous health sensing. I also have a background in biomedical engineering and novel material-based sensors.
+
+CV available upon request.
