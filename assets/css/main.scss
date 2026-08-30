@@ -6,6 +6,7 @@
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
+// Site-specific responsive and component styles are loaded after the theme.
 @import
   "variables",
   "themes",
