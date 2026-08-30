@@ -1,0 +1,19 @@
+{% if include.abbr %}
+  {% assign venue = site.data.venues[include.abbr] %}
+  {% assign venue_style = null %}
+  {% if venue and venue.color != blank %}
+    {% assign venue_style = venue.color | prepend: 'style="background-color:' | append: '"' %}
+  {% endif %}
+  <abbr
+    class="publication-venue-badge badge rounded{% if include.full_width %} w-100{% endif %}"
+    {% if venue_style %}
+      {{ venue_style }}
+    {% endif %}
+  >
+    {% if venue and venue.url %}
+      <a href="{{ venue.url }}">{{ include.abbr }}</a>
+    {% else %}
+      {{ include.abbr }}
+    {% endif %}
+  </abbr>
+{% endif %}

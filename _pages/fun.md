@@ -5,7 +5,6 @@ permalink: /fun/
 description: Places I have explored around the world.
 nav: true
 nav_order: 3
-map: true
 travel_map: true
 ---
 

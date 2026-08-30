@@ -1,8 +1,10 @@
-document.addEventListener("DOMContentLoaded", () => {
+import * as maplibregl from "https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs";
+
+const initializeTravelMap = () => {
   const mapElement = document.getElementById("travel-map");
   const dataElement = document.getElementById("travel-places-data");
 
-  if (!mapElement || !dataElement || typeof L === "undefined") return;
+  if (!mapElement || !dataElement) return;
 
   let places = [];
   try {
@@ -12,36 +14,86 @@ document.addEventListener("DOMContentLoaded", () => {
     console.error("Unable to load travel map data.", error);
   }
 
-  const map = L.map(mapElement, {
-    minZoom: 2,
-    worldCopyJump: true,
-    scrollWheelZoom: false,
-  }).setView([22, 8], 2);
+  const lightStyle = "https://tiles.openfreemap.org/styles/positron";
+  const darkStyle = "https://tiles.openfreemap.org/styles/dark";
+  const preferredStyle = () => (document.documentElement.dataset.theme === "dark" ? darkStyle : lightStyle);
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 18,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-  }).addTo(map);
+  try {
+    let activeStyle = preferredStyle();
+    const map = new maplibregl.Map({
+      container: mapElement,
+      style: activeStyle,
+      center: [-101, 39],
+      zoom: 3,
+      attributionControl: true,
+      dragRotate: false,
+      pitchWithRotate: false,
+      scrollZoom: false,
+    });
 
-  const bounds = [];
-  places.forEach((place) => {
-    if (typeof place.latitude !== "number" || typeof place.longitude !== "number") return;
+    map.touchZoomRotate.disableRotation();
+    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
 
-    const marker = L.circleMarker([place.latitude, place.longitude], {
-      radius: 6,
-      color: "#ffffff",
-      weight: 2,
-      fillColor: "#0076df",
-      fillOpacity: 0.9,
-    }).addTo(map);
+    const bounds = new maplibregl.LngLatBounds();
+    let markerCount = 0;
 
-    const label = [place.city, place.region, place.country].filter(Boolean).join(", ");
-    if (label) marker.bindTooltip(label, { direction: "top", offset: [0, -4] });
-    bounds.push([place.latitude, place.longitude]);
-  });
+    places.forEach((place) => {
+      if (typeof place.latitude !== "number" || typeof place.longitude !== "number") return;
 
-  if (bounds.length > 0) map.fitBounds(bounds, { padding: [48, 48], maxZoom: 5 });
+      const fullLabel = [place.city, place.region, place.country].filter(Boolean).join(", ");
+      const markerElement = document.createElement("button");
+      markerElement.type = "button";
+      markerElement.className = "travel-marker";
+      markerElement.setAttribute("aria-label", fullLabel);
+      markerElement.title = fullLabel;
 
-  const countElement = document.getElementById("travel-place-count");
-  if (countElement) countElement.textContent = places.length.toString();
-});
+      const dot = document.createElement("span");
+      dot.className = "travel-marker__dot";
+      dot.setAttribute("aria-hidden", "true");
+
+      const label = document.createElement("span");
+      label.className = "travel-marker__label";
+      label.textContent = place.city;
+
+      markerElement.append(dot, label);
+
+      const popup = new maplibregl.Popup({ closeButton: false, offset: 18 }).setText(fullLabel);
+      new maplibregl.Marker({ element: markerElement, anchor: "bottom" }).setLngLat([place.longitude, place.latitude]).setPopup(popup).addTo(map);
+
+      bounds.extend([place.longitude, place.latitude]);
+      markerCount += 1;
+    });
+
+    if (!bounds.isEmpty()) {
+      map.fitBounds(bounds, {
+        padding: { top: 80, right: 80, bottom: 80, left: 80 },
+        maxZoom: 4,
+        duration: reduceMotion ? 0 : 900,
+      });
+    }
+
+    map.once("load", () => mapElement.classList.add("travel-map--ready"));
+
+    const themeObserver = new MutationObserver(() => {
+      const nextStyle = preferredStyle();
+      if (nextStyle === activeStyle) return;
+      activeStyle = nextStyle;
+      map.setStyle(activeStyle);
+    });
+    themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+
+    const countElement = document.getElementById("travel-place-count");
+    if (countElement) countElement.textContent = markerCount.toString();
+  } catch (error) {
+    console.error("Unable to initialize the travel map.", error);
+    mapElement.classList.add("travel-map--unavailable");
+    mapElement.textContent = "The travel map could not be loaded.";
+  }
+};
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initializeTravelMap, { once: true });
+} else {
+  initializeTravelMap();
+}
