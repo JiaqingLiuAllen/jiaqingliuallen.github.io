@@ -10,7 +10,7 @@ travel_map: true
 
 <div class="travel-map-intro">
   <p>A growing map of places I have explored.</p>
-  <p class="travel-map-count"><span id="travel-place-count">0</span> places and counting</p>
+  <p class="travel-map-count"><span id="travel-place-count">{{ site.data.travel_places | size }}</span> places and counting</p>
 </div>
 
 <div id="travel-map" class="travel-map" role="region" aria-label="Map of places I have visited"></div>
@@ -20,3 +20,21 @@ travel_map: true
 </script>
 
 <noscript><p>Please enable JavaScript to view the interactive travel map.</p></noscript>
+
+{% assign travel_countries = site.data.travel_places | group_by: 'country' %}
+
+<section class="travel-place-list" aria-labelledby="travel-place-list-title">
+  <h2 id="travel-place-list-title">Places visited</h2>
+  <div class="travel-country-grid">
+    {% for country in travel_countries %}
+      <section class="travel-country" aria-labelledby="travel-country-{{ country.name | slugify }}">
+        <h3 id="travel-country-{{ country.name | slugify }}">{{ country.name }}</h3>
+        <ul>
+          {% for place in country.items %}
+            <li>{{ place.city }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endfor %}
+  </div>
+</section>

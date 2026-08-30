@@ -1,11 +1,127 @@
-- city: Seattle
-  region: Washington
+- city: Beijing
+  region: Beijing
+  country: China
+  latitude: 39.9042
+  longitude: 116.4074
+
+- city: Chengdu
+  region: Sichuan
+  country: China
+  latitude: 30.5728
+  longitude: 104.0668
+
+- city: Dalian
+  region: Liaoning
+  country: China
+  latitude: 38.914
+  longitude: 121.6147
+
+- city: Shanghai
+  region: Shanghai
+  country: China
+  latitude: 31.2304
+  longitude: 121.4737
+
+- city: Tianjin
+  region: Tianjin
+  country: China
+  latitude: 39.3434
+  longitude: 117.3616
+
+- city: Osaka
+  region: Osaka
+  country: Japan
+  latitude: 34.6937
+  longitude: 135.5023
+
+- city: Tokyo
+  region: Tokyo
+  country: Japan
+  latitude: 35.6762
+  longitude: 139.6503
+
+- city: Singapore
+  country: Singapore
+  latitude: 1.3521
+  longitude: 103.8198
+
+- city: Seoul
+  country: South Korea
+  latitude: 37.5665
+  longitude: 126.978
+
+- city: Bangkok
+  country: Thailand
+  latitude: 13.7563
+  longitude: 100.5018
+
+- city: Phuket
+  country: Thailand
+  latitude: 7.8804
+  longitude: 98.3923
+
+- city: Chicago
+  region: Illinois
   country: United States
-  latitude: 47.60639
-  longitude: -122.33083
+  latitude: 41.8781
+  longitude: -87.6298
+
+- city: Las Vegas
+  region: Nevada
+  country: United States
+  latitude: 36.1699
+  longitude: -115.1398
+
+- city: Los Angeles
+  region: California
+  country: United States
+  latitude: 34.0522
+  longitude: -118.2437
+
+- city: Miami
+  region: Florida
+  country: United States
+  latitude: 25.7617
+  longitude: -80.1918
 
 - city: Notre Dame
   region: Indiana
   country: United States
   latitude: 41.70047
   longitude: -86.234
+
+- city: Portland
+  region: Oregon
+  country: United States
+  latitude: 45.5152
+  longitude: -122.6784
+
+- city: Salt Lake City
+  region: Utah
+  country: United States
+  latitude: 40.7608
+  longitude: -111.891
+
+- city: San Francisco
+  region: California
+  country: United States
+  latitude: 37.7749
+  longitude: -122.4194
+
+- city: Seattle
+  region: Washington
+  country: United States
+  latitude: 47.60639
+  longitude: -122.33083
+
+- city: "Washington, D.C."
+  region: District of Columbia
+  country: United States
+  latitude: 38.9072
+  longitude: -77.0369
+
+- city: Yellowstone National Park
+  region: Wyoming
+  country: United States
+  latitude: 44.428
+  longitude: -110.5885

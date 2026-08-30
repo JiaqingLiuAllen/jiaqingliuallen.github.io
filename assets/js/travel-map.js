@@ -26,7 +26,7 @@ const initializeTravelMap = () => {
       attributionControl: true,
       dragRotate: false,
       pitchWithRotate: false,
-      scrollZoom: false,
+      scrollZoom: true,
     });
 
     map.touchZoomRotate.disableRotation();
@@ -38,22 +38,15 @@ const initializeTravelMap = () => {
     places.forEach((place) => {
       if (typeof place.latitude !== "number" || typeof place.longitude !== "number") return;
 
-      const fullLabel = [place.city, place.region, place.country].filter(Boolean).join(", ");
+      const locationParts = [place.city];
+      if (place.region && place.region !== place.city) locationParts.push(place.region);
+      if (place.country) locationParts.push(place.country);
+      const fullLabel = locationParts.join(", ");
       const markerElement = document.createElement("button");
       markerElement.type = "button";
       markerElement.className = "travel-marker";
       markerElement.setAttribute("aria-label", fullLabel);
       markerElement.title = fullLabel;
-
-      const dot = document.createElement("span");
-      dot.className = "travel-marker__dot";
-      dot.setAttribute("aria-hidden", "true");
-
-      const label = document.createElement("span");
-      label.className = "travel-marker__label";
-      label.textContent = place.city;
-
-      markerElement.append(dot, label);
 
       const popup = new maplibregl.Popup({ closeButton: false, offset: 18 }).setText(fullLabel);
       new maplibregl.Marker({ element: markerElement, anchor: "bottom" }).setLngLat([place.longitude, place.latitude]).setPopup(popup).addTo(map);

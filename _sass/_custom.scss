@@ -116,26 +116,24 @@
 }
 
 .travel-marker {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  min-height: 2rem;
-  padding: 0.28rem 0.65rem 0.28rem 0.4rem;
-  color: #172033;
-  border: 1px solid rgba(23, 32, 51, 0.14);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.95);
-  box-shadow: 0 5px 16px rgba(23, 32, 51, 0.18);
-  font-family: inherit;
-  font-size: 0.78rem;
-  font-weight: 500;
-  line-height: 1;
+  display: block;
+  width: 0.95rem;
+  height: 0.95rem;
+  padding: 0;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: #0076df;
+  box-shadow:
+    0 0 0 2px rgba(0, 118, 223, 0.24),
+    0 4px 12px rgba(23, 32, 51, 0.24);
   cursor: pointer;
-  backdrop-filter: blur(8px);
 
   &:hover,
   &:focus-visible {
-    border-color: #0076df;
+    background: #005fb3;
+    box-shadow:
+      0 0 0 3px rgba(0, 118, 223, 0.28),
+      0 5px 14px rgba(23, 32, 51, 0.3);
   }
 
   &:focus-visible {
@@ -144,21 +142,61 @@
   }
 }
 
-.travel-marker__dot {
-  width: 0.72rem;
-  height: 0.72rem;
-  flex: 0 0 auto;
-  border: 2px solid #fff;
-  border-radius: 50%;
-  background: #0076df;
-  box-shadow: 0 0 0 2px rgba(0, 118, 223, 0.22);
-}
-
 .travel-map--unavailable {
   display: grid;
   place-items: center;
   color: var(--global-text-color-light);
   box-shadow: none;
+}
+
+.travel-place-list {
+  margin-top: 2.75rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--global-divider-color);
+
+  h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+  }
+}
+
+.travel-country-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 3rem;
+  row-gap: 1.75rem;
+}
+
+.travel-country {
+  padding-top: 0.75rem;
+  border-top: 2px solid var(--global-theme-color);
+
+  h3 {
+    margin-bottom: 0.55rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+
+    &:not(:last-child)::after {
+      content: "·";
+      margin: 0 0.6rem;
+      color: var(--global-theme-color);
+    }
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -191,6 +229,11 @@
   .travel-map {
     height: 65vh;
     min-height: 360px;
+  }
+
+  .travel-country-grid {
+    grid-template-columns: 1fr;
+    row-gap: 1.4rem;
   }
 }
 
