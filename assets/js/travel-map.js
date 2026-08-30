@@ -14,16 +14,13 @@ const initializeTravelMap = () => {
     console.error("Unable to load travel map data.", error);
   }
 
-  const lightStyle = "https://tiles.openfreemap.org/styles/positron";
-  const darkStyle = "https://tiles.openfreemap.org/styles/dark";
-  const preferredStyle = () => (document.documentElement.dataset.theme === "dark" ? darkStyle : lightStyle);
+  const mapStyle = "https://tiles.openfreemap.org/styles/liberty";
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   try {
-    let activeStyle = preferredStyle();
     const map = new maplibregl.Map({
       container: mapElement,
-      style: activeStyle,
+      style: mapStyle,
       center: [-101, 39],
       zoom: 3,
       attributionControl: true,
@@ -74,14 +71,6 @@ const initializeTravelMap = () => {
     }
 
     map.once("load", () => mapElement.classList.add("travel-map--ready"));
-
-    const themeObserver = new MutationObserver(() => {
-      const nextStyle = preferredStyle();
-      if (nextStyle === activeStyle) return;
-      activeStyle = nextStyle;
-      map.setStyle(activeStyle);
-    });
-    themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
 
     const countElement = document.getElementById("travel-place-count");
     if (countElement) countElement.textContent = markerCount.toString();
