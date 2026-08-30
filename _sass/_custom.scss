@@ -14,21 +14,18 @@
     justify-content: center;
     width: 2rem;
     height: 2rem;
-    color: #fff;
-    border: 1px solid #111;
-    border-radius: 50%;
-    background: #111;
-    font-size: 0.9rem;
+    color: var(--global-text-color);
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    font-size: 1.25rem;
     transition:
       color 0.15s ease,
-      border-color 0.15s ease,
       transform 0.15s ease;
 
     &:hover,
     &:focus-visible {
-      color: #fff;
-      border-color: #2b2b2b;
-      background: #2b2b2b;
+      color: var(--global-theme-color);
       text-decoration: none;
       transform: translateY(-1px);
     }
@@ -206,9 +203,9 @@
     margin-right: auto;
 
     a {
-      width: 1.85rem;
-      height: 1.85rem;
-      font-size: 0.82rem;
+      width: 2rem;
+      height: 2rem;
+      font-size: 1.15rem;
     }
   }
 
