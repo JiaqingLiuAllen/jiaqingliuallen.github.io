@@ -1,0 +1,11 @@
+- city: Seattle
+  region: Washington
+  country: United States
+  latitude: 47.60639
+  longitude: -122.33083
+
+- city: Notre Dame
+  region: Indiana
+  country: United States
+  latitude: 41.70047
+  longitude: -86.234

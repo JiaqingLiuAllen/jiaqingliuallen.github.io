@@ -1,0 +1,127 @@
+/*******************************************************************************
+ * Site-specific refinements
+ ******************************************************************************/
+
+.navbar-social {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-right: 0.75rem;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    color: var(--global-text-color-light);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 50%;
+    font-size: 0.82rem;
+    transition:
+      color 0.15s ease,
+      border-color 0.15s ease,
+      transform 0.15s ease;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+      text-decoration: none;
+      transform: translateY(-1px);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--global-theme-color);
+      outline-offset: 2px;
+    }
+  }
+}
+
+.publications ol.bibliography li {
+  margin-bottom: 1.75rem;
+
+  .publication-thumbnail {
+    figure {
+      margin-bottom: 0.5rem;
+    }
+
+    .preview {
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      object-fit: cover;
+      background: var(--global-card-bg-color);
+    }
+  }
+}
+
+.travel-map-intro {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .travel-map-count {
+    color: var(--global-text-color-light);
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+}
+
+.travel-map {
+  width: 100%;
+  height: min(62vh, 560px);
+  min-height: 420px;
+  overflow: hidden;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.5rem;
+  background: var(--global-card-bg-color);
+}
+
+.travel-map .leaflet-control-attribution {
+  font-size: 0.65rem;
+}
+
+@media (max-width: 575.98px) {
+  .navbar-social {
+    gap: 0.25rem;
+    margin-left: 0;
+    margin-right: auto;
+
+    a {
+      width: 1.6rem;
+      height: 1.6rem;
+      font-size: 0.75rem;
+    }
+  }
+
+  .publications ol.bibliography li .publication-thumbnail {
+    margin-bottom: 0.75rem;
+
+    .preview {
+      max-height: 240px;
+    }
+  }
+
+  .travel-map-intro {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .travel-map {
+    height: 65vh;
+    min-height: 360px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .navbar-social a {
+    transition: none;
+  }
+}

@@ -1,0 +1,18 @@
+<div class="navbar-social" aria-label="Social links">
+  <a href="mailto:{{ site.data.socials.email | encode_email }}" title="Email" aria-label="Email">
+    <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+  </a>
+  <a href="https://github.com/{{ site.data.socials.github_username }}" title="GitHub" aria-label="GitHub">
+    <i class="fa-brands fa-github" aria-hidden="true"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" title="LinkedIn" aria-label="LinkedIn">
+    <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+  </a>
+  <a
+    href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}&hl=en"
+    title="Google Scholar"
+    aria-label="Google Scholar"
+  >
+    <i class="ai ai-google-scholar" aria-hidden="true"></i>
+  </a>
+</div>
