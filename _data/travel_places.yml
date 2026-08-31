@@ -276,6 +276,13 @@
   latitude: 7.8804
   longitude: 98.3923
 
+- city: Arches National Park
+  region: Utah
+  country: United States
+  category: national_park
+  latitude: 38.7331
+  longitude: -109.5925
+
 - city: Austin
   region: Texas
   country: United States
@@ -300,6 +307,19 @@
   country: United States
   latitude: 45.8918
   longitude: -123.9615
+
+- city: Canyonlands National Park
+  region: Utah
+  country: United States
+  category: national_park
+  latitude: 38.3269
+  longitude: -109.8783
+
+- city: Charlottesville
+  region: Virginia
+  country: United States
+  latitude: 38.0293
+  longitude: -78.4767
 
 - city: Chicago
   region: Illinois
@@ -338,6 +358,12 @@
   latitude: 25.2866
   longitude: -80.8987
 
+- city: Forks
+  region: Washington
+  country: United States
+  latitude: 47.9504
+  longitude: -124.3855
+
 - city: Fort Lauderdale
   region: Florida
   country: United States
@@ -363,11 +389,25 @@
   latitude: 36.1069
   longitude: -112.1129
 
+- city: Grand Teton National Park
+  region: Wyoming
+  country: United States
+  category: national_park
+  latitude: 43.7904
+  longitude: -110.6818
+
 - city: Gulfport
   region: Mississippi
   country: United States
   latitude: 30.3674
   longitude: -89.0928
+
+- city: Hot Springs National Park
+  region: Arkansas
+  country: United States
+  category: national_park
+  latitude: 34.5217
+  longitude: -93.0424
 
 - city: Houston
   region: Texas
@@ -436,6 +476,13 @@
   latitude: 38.2527
   longitude: -85.7585
 
+- city: Mammoth Cave National Park
+  region: Kentucky
+  country: United States
+  category: national_park
+  latitude: 37.1862
+  longitude: -86.1
+
 - city: Marathon
   region: Florida
   country: United States
@@ -459,6 +506,12 @@
   country: United States
   latitude: 41.662
   longitude: -86.1586
+
+- city: Moab
+  region: Utah
+  country: United States
+  latitude: 38.5733
+  longitude: -109.5498
 
 - city: Mount Rainier National Park
   region: Washington
@@ -492,6 +545,12 @@
   latitude: 41.70047
   longitude: -86.234
 
+- city: Olympia
+  region: Washington
+  country: United States
+  latitude: 47.0379
+  longitude: -122.9007
+
 - city: Olympic National Park
   region: Washington
   country: United States
@@ -505,11 +564,23 @@
   latitude: 28.5383
   longitude: -81.3792
 
+- city: Page
+  region: Arizona
+  country: United States
+  latitude: 36.9147
+  longitude: -111.4558
+
 - city: Palm Springs
   region: California
   country: United States
   latitude: 33.8303
   longitude: -116.5453
+
+- city: Phoenix
+  region: Arizona
+  country: United States
+  latitude: 33.4484
+  longitude: -112.074
 
 - city: Portland
   region: Oregon
@@ -529,6 +600,12 @@
   latitude: 40.7608
   longitude: -111.891
 
+- city: San Antonio
+  region: Texas
+  country: United States
+  latitude: 29.4241
+  longitude: -98.4936
+
 - city: San Diego
   region: California
   country: United States
@@ -540,6 +617,18 @@
   country: United States
   latitude: 37.7749
   longitude: -122.4194
+
+- city: Santa Barbara
+  region: California
+  country: United States
+  latitude: 34.4208
+  longitude: -119.6982
+
+- city: Santa Cruz
+  region: California
+  country: United States
+  latitude: 36.9741
+  longitude: -122.0308
 
 - city: Seattle
   region: Washington
@@ -553,6 +642,18 @@
   latitude: 41.6764
   longitude: -86.252
 
+- city: St. Joseph
+  region: Michigan
+  country: United States
+  latitude: 42.1098
+  longitude: -86.48
+
+- city: Tillamook
+  region: Oregon
+  country: United States
+  latitude: 45.4562
+  longitude: -123.844
+
 - city: Waco
   region: Texas
   country: United States
@@ -564,6 +665,12 @@
   country: United States
   latitude: 38.9072
   longitude: -77.0369
+
+- city: Yakima
+  region: Washington
+  country: United States
+  latitude: 46.6021
+  longitude: -120.5059
 
 - city: Yellowstone National Park
   region: Wyoming
