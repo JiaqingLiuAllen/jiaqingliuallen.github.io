@@ -119,6 +119,11 @@
   box-shadow: 0 0 0 1px rgba(43, 138, 62, 0.3);
 }
 
+.travel-map-legend-dot--theme-park {
+  background: #a23ec9;
+  box-shadow: 0 0 0 1px rgba(162, 62, 201, 0.3);
+}
+
 .travel-map {
   width: 100%;
   height: min(62vh, 560px);
@@ -184,6 +189,25 @@
 
   &:focus-visible {
     outline-color: #2b8a3e;
+  }
+}
+
+.travel-marker--theme-park {
+  background: #a23ec9;
+  box-shadow:
+    0 0 0 2px rgba(162, 62, 201, 0.26),
+    0 4px 12px rgba(23, 32, 51, 0.24);
+
+  &:hover,
+  &:focus-visible {
+    background: #7f2ba2;
+    box-shadow:
+      0 0 0 3px rgba(162, 62, 201, 0.3),
+      0 5px 14px rgba(23, 32, 51, 0.3);
+  }
+
+  &:focus-visible {
+    outline-color: #a23ec9;
   }
 }
 

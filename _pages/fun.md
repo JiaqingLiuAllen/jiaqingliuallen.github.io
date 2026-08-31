@@ -14,6 +14,7 @@ travel_map: true
     <div class="travel-map-legend" aria-label="Map legend">
       <span><span class="travel-map-legend-dot" aria-hidden="true"></span>Cities</span>
       <span><span class="travel-map-legend-dot travel-map-legend-dot--national-park" aria-hidden="true"></span>National parks</span>
+      <span><span class="travel-map-legend-dot travel-map-legend-dot--theme-park" aria-hidden="true"></span>Theme parks</span>
     </div>
   </div>
   <p class="travel-map-count"><span id="travel-place-count">{{ site.data.travel_places | size }}</span> places and counting</p>

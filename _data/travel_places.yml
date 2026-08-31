@@ -13,8 +13,8 @@
 - city: Chengdu
   region: Sichuan
   country: China
-  latitude: 30.5728
-  longitude: 104.0668
+  latitude: 30.657
+  longitude: 104.0658
 
 - city: Chongqing
   region: Chongqing
@@ -27,6 +27,12 @@
   country: China
   latitude: 38.914
   longitude: 121.6147
+
+- city: Dongguan
+  region: Guangdong
+  country: China
+  latitude: 23.0207
+  longitude: 113.7518
 
 - city: Dujiangyan
   region: Sichuan
@@ -70,11 +76,24 @@
   latitude: 30.2741
   longitude: 120.1551
 
+- city: Harbin
+  region: Heilongjiang
+  country: China
+  latitude: 45.8038
+  longitude: 126.535
+
 - city: Hong Kong
   region: Hong Kong SAR
   country: China
   latitude: 22.3193
   longitude: 114.1694
+
+- city: Hong Kong Disneyland
+  region: Hong Kong SAR
+  country: China
+  category: theme_park
+  latitude: 22.313
+  longitude: 114.0413
 
 - city: Hongcun
   region: Anhui
@@ -82,11 +101,41 @@
   latitude: 30.0033
   longitude: 117.9956
 
+- city: Huanglong
+  region: Sichuan
+  country: China
+  latitude: 32.7472
+  longitude: 103.8313
+
 - city: Huangshan
   region: Anhui
   country: China
   latitude: 29.7147
   longitude: 118.3376
+
+- city: Jiuzhaigou
+  region: Sichuan
+  country: China
+  latitude: 33.252
+  longitude: 103.919
+
+- city: Leshan
+  region: Sichuan
+  country: China
+  latitude: 29.5521
+  longitude: 103.7656
+
+- city: Liaoyang
+  region: Liaoning
+  country: China
+  latitude: 41.2681
+  longitude: 123.2374
+
+- city: Luzhou
+  region: Sichuan
+  country: China
+  latitude: 28.8718
+  longitude: 105.4426
 
 - city: Macau
   region: Macau SAR
@@ -105,6 +154,12 @@
   country: China
   latitude: 30.9006
   longitude: 103.5657
+
+- city: Mudanjiang
+  region: Heilongjiang
+  country: China
+  latitude: 44.5517
+  longitude: 129.6332
 
 - city: Nanjing
   region: Jiangsu
@@ -142,6 +197,12 @@
   latitude: 23.3541
   longitude: 116.6822
 
+- city: Shenyang
+  region: Liaoning
+  country: China
+  latitude: 41.8057
+  longitude: 123.4315
+
 - city: Shenzhen
   region: Guangdong
   country: China
@@ -157,8 +218,20 @@
 - city: Tianjin
   region: Tianjin
   country: China
-  latitude: 39.3434
-  longitude: 117.3616
+  latitude: 39.1171
+  longitude: 117.2009
+
+- city: Tongliao
+  region: Inner Mongolia
+  country: China
+  latitude: 43.6174
+  longitude: 122.264
+
+- city: Weihai
+  region: Shandong
+  country: China
+  latitude: 37.5131
+  longitude: 122.1204
 
 - city: Wuhan
   region: Hubei
@@ -196,6 +269,12 @@
   latitude: 21.2707
   longitude: 110.3594
 
+- city: Zhuhai
+  region: Guangdong
+  country: China
+  latitude: 22.2707
+  longitude: 113.5767
+
 - city: Kyoto
   region: Kyoto
   country: Japan
@@ -214,10 +293,23 @@
   latitude: 35.6762
   longitude: 139.6503
 
+- city: Tokyo Disneyland
+  region: Chiba
+  country: Japan
+  category: theme_park
+  latitude: 35.6329
+  longitude: 139.8804
+
 - city: Singapore
   country: Singapore
   latitude: 1.3521
   longitude: 103.8198
+
+- city: Universal Studios Singapore
+  country: Singapore
+  category: theme_park
+  latitude: 1.254
+  longitude: 103.8238
 
 - city: Seoul
   country: South Korea
@@ -241,6 +333,12 @@
   country: Taiwan
   latitude: 23.9911
   longitude: 121.6112
+
+- city: Kaohsiung
+  region: Kaohsiung
+  country: Taiwan
+  latitude: 22.6273
+  longitude: 120.3014
 
 - city: Kenting
   region: Pingtung County
@@ -653,6 +751,20 @@
   country: United States
   latitude: 45.4562
   longitude: -123.844
+
+- city: Universal Orlando Resort
+  region: Florida
+  country: United States
+  category: theme_park
+  latitude: 28.4743
+  longitude: -81.4678
+
+- city: Universal Studios Hollywood
+  region: California
+  country: United States
+  category: theme_park
+  latitude: 34.1381
+  longitude: -118.3534
 
 - city: Waco
   region: Texas
