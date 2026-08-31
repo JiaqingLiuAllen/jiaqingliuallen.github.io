@@ -90,6 +90,35 @@
   }
 }
 
+.travel-map-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  margin-top: 0.45rem;
+  color: var(--global-text-color-light);
+  font-size: 0.78rem;
+
+  > span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+}
+
+.travel-map-legend-dot {
+  width: 0.55rem;
+  height: 0.55rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  background: #0076df;
+  box-shadow: 0 0 0 1px rgba(0, 118, 223, 0.28);
+}
+
+.travel-map-legend-dot--national-park {
+  background: #2b8a3e;
+  box-shadow: 0 0 0 1px rgba(43, 138, 62, 0.3);
+}
+
 .travel-map {
   width: 100%;
   height: min(62vh, 560px);
@@ -136,6 +165,25 @@
   &:focus-visible {
     outline: 2px solid #0076df;
     outline-offset: 2px;
+  }
+}
+
+.travel-marker--national-park {
+  background: #2b8a3e;
+  box-shadow:
+    0 0 0 2px rgba(43, 138, 62, 0.26),
+    0 4px 12px rgba(23, 32, 51, 0.24);
+
+  &:hover,
+  &:focus-visible {
+    background: #206f31;
+    box-shadow:
+      0 0 0 3px rgba(43, 138, 62, 0.3),
+      0 5px 14px rgba(23, 32, 51, 0.3);
+  }
+
+  &:focus-visible {
+    outline-color: #2b8a3e;
   }
 }
 

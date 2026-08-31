@@ -4,11 +4,23 @@
   latitude: 39.9042
   longitude: 116.4074
 
+- city: Changsha
+  region: Hunan
+  country: China
+  latitude: 28.2282
+  longitude: 112.9388
+
 - city: Chengdu
   region: Sichuan
   country: China
   latitude: 30.5728
   longitude: 104.0668
+
+- city: Chongqing
+  region: Chongqing
+  country: China
+  latitude: 29.563
+  longitude: 106.5516
 
 - city: Dalian
   region: Liaoning
@@ -16,11 +28,53 @@
   latitude: 38.914
   longitude: 121.6147
 
+- city: Dujiangyan
+  region: Sichuan
+  country: China
+  latitude: 30.991
+  longitude: 103.6469
+
+- city: Foshan
+  region: Guangdong
+  country: China
+  latitude: 23.0215
+  longitude: 113.1214
+
+- city: Fuzhou
+  region: Fujian
+  country: China
+  latitude: 26.0745
+  longitude: 119.2965
+
+- city: Guangzhou
+  region: Guangdong
+  country: China
+  latitude: 23.1291
+  longitude: 113.2644
+
+- city: Guilin
+  region: Guangxi
+  country: China
+  latitude: 25.2742
+  longitude: 110.299
+
+- city: Guiyang
+  region: Guizhou
+  country: China
+  latitude: 26.647
+  longitude: 106.6302
+
 - city: Hangzhou
   region: Zhejiang
   country: China
   latitude: 30.2741
   longitude: 120.1551
+
+- city: Hong Kong
+  region: Hong Kong SAR
+  country: China
+  latitude: 22.3193
+  longitude: 114.1694
 
 - city: Hongcun
   region: Anhui
@@ -34,6 +88,42 @@
   latitude: 29.7147
   longitude: 118.3376
 
+- city: Macau
+  region: Macau SAR
+  country: China
+  latitude: 22.1987
+  longitude: 113.5439
+
+- city: Mount Emei
+  region: Sichuan
+  country: China
+  latitude: 29.5448
+  longitude: 103.3362
+
+- city: Mount Qingcheng
+  region: Sichuan
+  country: China
+  latitude: 30.9006
+  longitude: 103.5657
+
+- city: Nanjing
+  region: Jiangsu
+  country: China
+  latitude: 32.0603
+  longitude: 118.7969
+
+- city: Nanning
+  region: Guangxi
+  country: China
+  latitude: 22.817
+  longitude: 108.3665
+
+- city: Qingdao
+  region: Shandong
+  country: China
+  latitude: 36.0671
+  longitude: 120.3826
+
 - city: Quanzhou
   region: Fujian
   country: China
@@ -45,6 +135,24 @@
   country: China
   latitude: 31.2304
   longitude: 121.4737
+
+- city: Shantou
+  region: Guangdong
+  country: China
+  latitude: 23.3541
+  longitude: 116.6822
+
+- city: Shenzhen
+  region: Guangdong
+  country: China
+  latitude: 22.5431
+  longitude: 114.0579
+
+- city: Suzhou
+  region: Jiangsu
+  country: China
+  latitude: 31.2989
+  longitude: 120.5853
 
 - city: Tianjin
   region: Tianjin
@@ -58,11 +166,41 @@
   latitude: 30.5928
   longitude: 114.3055
 
+- city: "Xi'an"
+  region: Shaanxi
+  country: China
+  latitude: 34.3416
+  longitude: 108.9398
+
 - city: Xiamen
   region: Fujian
   country: China
   latitude: 24.4798
   longitude: 118.0894
+
+- city: Yantai
+  region: Shandong
+  country: China
+  latitude: 37.4638
+  longitude: 121.4479
+
+- city: Yueyang
+  region: Hunan
+  country: China
+  latitude: 29.3571
+  longitude: 113.1289
+
+- city: Zhanjiang
+  region: Guangdong
+  country: China
+  latitude: 21.2707
+  longitude: 110.3594
+
+- city: Kyoto
+  region: Kyoto
+  country: Japan
+  latitude: 35.0116
+  longitude: 135.7681
 
 - city: Osaka
   region: Osaka
@@ -98,6 +236,36 @@
   latitude: 41.9794
   longitude: 2.8214
 
+- city: Hualien
+  region: Hualien County
+  country: Taiwan
+  latitude: 23.9911
+  longitude: 121.6112
+
+- city: Kenting
+  region: Pingtung County
+  country: Taiwan
+  latitude: 21.946
+  longitude: 120.799
+
+- city: New Taipei City
+  region: New Taipei
+  country: Taiwan
+  latitude: 25.0169
+  longitude: 121.4628
+
+- city: Taipei
+  region: Taipei
+  country: Taiwan
+  latitude: 25.033
+  longitude: 121.5654
+
+- city: Taitung
+  region: Taitung County
+  country: Taiwan
+  latitude: 22.7554
+  longitude: 121.15
+
 - city: Bangkok
   country: Thailand
   latitude: 13.7563
@@ -113,6 +281,25 @@
   country: United States
   latitude: 30.2672
   longitude: -97.7431
+
+- city: Baton Rouge
+  region: Louisiana
+  country: United States
+  latitude: 30.4515
+  longitude: -91.1871
+
+- city: Bryce Canyon National Park
+  region: Utah
+  country: United States
+  category: national_park
+  latitude: 37.6283
+  longitude: -112.1677
+
+- city: Cannon Beach
+  region: Oregon
+  country: United States
+  latitude: 45.8918
+  longitude: -123.9615
 
 - city: Chicago
   region: Illinois
@@ -144,6 +331,13 @@
   latitude: 39.7589
   longitude: -84.1916
 
+- city: Everglades National Park
+  region: Florida
+  country: United States
+  category: national_park
+  latitude: 25.2866
+  longitude: -80.8987
+
 - city: Fort Lauderdale
   region: Florida
   country: United States
@@ -162,6 +356,19 @@
   latitude: 29.3013
   longitude: -94.7977
 
+- city: Grand Canyon National Park
+  region: Arizona
+  country: United States
+  category: national_park
+  latitude: 36.1069
+  longitude: -112.1129
+
+- city: Gulfport
+  region: Mississippi
+  country: United States
+  latitude: 30.3674
+  longitude: -89.0928
+
 - city: Houston
   region: Texas
   country: United States
@@ -179,6 +386,13 @@
   country: United States
   latitude: 39.7684
   longitude: -86.1581
+
+- city: Joshua Tree National Park
+  region: California
+  country: United States
+  category: national_park
+  latitude: 33.8734
+  longitude: -115.901
 
 - city: Kalamazoo
   region: Michigan
@@ -204,17 +418,35 @@
   latitude: 36.1699
   longitude: -115.1398
 
+- city: Little Rock
+  region: Arkansas
+  country: United States
+  latitude: 34.7465
+  longitude: -92.2896
+
 - city: Los Angeles
   region: California
   country: United States
   latitude: 34.0522
   longitude: -118.2437
 
+- city: Louisville
+  region: Kentucky
+  country: United States
+  latitude: 38.2527
+  longitude: -85.7585
+
 - city: Marathon
   region: Florida
   country: United States
   latitude: 24.726
   longitude: -81.0477
+
+- city: Memphis
+  region: Tennessee
+  country: United States
+  latitude: 35.1495
+  longitude: -90.049
 
 - city: Miami
   region: Florida
@@ -228,11 +460,44 @@
   latitude: 41.662
   longitude: -86.1586
 
+- city: Mount Rainier National Park
+  region: Washington
+  country: United States
+  category: national_park
+  latitude: 46.88
+  longitude: -121.7269
+
+- city: Nashville
+  region: Tennessee
+  country: United States
+  latitude: 36.1627
+  longitude: -86.7816
+
+- city: New Orleans
+  region: Louisiana
+  country: United States
+  latitude: 29.9511
+  longitude: -90.0715
+
+- city: North Cascades National Park
+  region: Washington
+  country: United States
+  category: national_park
+  latitude: 48.7718
+  longitude: -121.2985
+
 - city: Notre Dame
   region: Indiana
   country: United States
   latitude: 41.70047
   longitude: -86.234
+
+- city: Olympic National Park
+  region: Washington
+  country: United States
+  category: national_park
+  latitude: 47.8021
+  longitude: -123.6044
 
 - city: Orlando
   region: Florida
@@ -288,20 +553,21 @@
   latitude: 41.6764
   longitude: -86.252
 
-- city: "Washington, D.C."
-  region: District of Columbia
-  country: United States
-  latitude: 38.9072
-  longitude: -77.0369
-
 - city: Waco
   region: Texas
   country: United States
   latitude: 31.5493
   longitude: -97.1467
 
+- city: "Washington, D.C."
+  region: District of Columbia
+  country: United States
+  latitude: 38.9072
+  longitude: -77.0369
+
 - city: Yellowstone National Park
   region: Wyoming
   country: United States
+  category: national_park
   latitude: 44.428
   longitude: -110.5885

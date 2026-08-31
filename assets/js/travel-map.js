@@ -45,6 +45,9 @@ const initializeTravelMap = () => {
       const markerElement = document.createElement("button");
       markerElement.type = "button";
       markerElement.className = "travel-marker";
+      if (place.category === "national_park") {
+        markerElement.classList.add("travel-marker--national-park");
+      }
       markerElement.setAttribute("aria-label", fullLabel);
       markerElement.title = fullLabel;
 
