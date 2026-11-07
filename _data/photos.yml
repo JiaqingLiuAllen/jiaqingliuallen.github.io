@@ -1,5 +1,5 @@
 # Photos for the Misc page (not shown on the home page).
-# 1. Put the image in assets/img/misc/ (about 1800px on the long side, with GPS/EXIF removed).
+# 1. Run `python3 bin/prep_photo.py ORIGINAL assets/img/misc/NAME.jpg` (crops to 4:3, removes GPS/EXIF).
 # 2. Add an entry below. Only `file` is required; `place` shows on hover and in the viewer.
 #    Optional: `caption` (shown under the photo) and `date` (shown exactly as written).
 
@@ -9,8 +9,6 @@
   place: Seattle, WA
 - file: cannon-beach.jpg
   place: Cannon Beach, OR
-- file: antelope-canyon.jpg
-  place: Antelope Canyon, AZ
 - file: seattle-lake-union.jpg
   place: Seattle, WA
 - file: barcelona.jpg

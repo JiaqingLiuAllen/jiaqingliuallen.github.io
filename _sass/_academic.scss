@@ -778,13 +778,14 @@ ol.bibliography {
 // ---------------------------------------------------------------------------
 // Misc — photo gallery
 // ---------------------------------------------------------------------------
+// A uniform grid: every tile is 4:3; other shapes are center-cropped to fit.
 .gallery {
-  columns: 3 260px;
-  column-gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
 }
 .gallery-item {
-  break-inside: avoid;
-  margin: 0 0 16px;
+  margin: 0;
   figcaption {
     padding: 8px 4px 0;
     font-size: 14px;
@@ -802,11 +803,13 @@ ol.bibliography {
   border-radius: 16px;
   background: var(--surface-2);
   box-shadow: var(--shadow-1);
+  aspect-ratio: 4 / 3;
   cursor: zoom-in;
   transition: box-shadow 0.35s var(--ease-out), transform 0.35s var(--ease-out);
   img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     transition: transform 0.7s var(--ease-out);
   }
   &:hover {
@@ -1201,8 +1204,7 @@ ol.bibliography {
   .list-card > li + li::before { right: 18px; left: 70px; }
   .news-body { flex-direction: column; gap: 2px; }
 
-  .gallery { columns: 2 140px; column-gap: 10px; }
-  .gallery-item { margin-bottom: 10px; }
+  .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .gallery-open { border-radius: 12px; }
 
   .contact-band { padding: 44px 20px 48px; border-radius: 24px; }

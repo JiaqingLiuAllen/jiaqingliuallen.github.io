@@ -27,7 +27,7 @@ Open http://127.0.0.1:4000. Check the homepage, Publications, News, and Misc at 
 - Publications and one-sentence summaries: `_bibliography/papers.bib`
 - News: `_news/` (set the icon with `emoji:` in the front matter)
 - Contact and profile links: `_data/socials.yml` (the email is never printed as text: `_includes/mail_attrs.liquid` + `assets/js/site.js` assemble it, and `_includes/email_image.liquid` draws it as outlines — regenerate that file if the address changes)
-- Misc photos: put images in `assets/img/misc/` and list them in `_data/photos.yml`
+- Misc photos: prepare each with `python3 bin/prep_photo.py ORIGINAL assets/img/misc/NAME.jpg` (4:3 crop, GPS/EXIF removed), then list it in `_data/photos.yml`; never commit originals
 - Design tokens, motion and responsive styles: `_sass/_academic.scss`; small interactions: `assets/js/site.js`
 
 Unfinished template posts, project detail pages, books, and unused demo pages are excluded from the generated site, while their source files remain available in the repository.
