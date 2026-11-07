@@ -1,0 +1,3 @@
+# Local preview uses original images when ImageMagick is unavailable.
+imagemagick:
+  enabled: false

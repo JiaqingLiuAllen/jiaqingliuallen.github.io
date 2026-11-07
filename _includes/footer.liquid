@@ -1,30 +1,12 @@
-{% capture footer_contents %}
-  &copy; Copyright {{ site.time | date: '%Y' }}
-  {{ site.first_name }}
-  {{ site.middle_name }}
-  {{ site.last_name }}. {{ site.footer_text }}
-  {% if site.impressum_path %}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-  {% endif %}
-  {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-  {% endif %}
-{% endcapture %}
-
-{% if site.footer_fixed %}
-  <footer class="fixed-bottom" role="contentinfo">
-    <div class="container mt-0">
-      {{ footer_contents }}
+{%- assign socials = site.data.socials -%}
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© {{ site.time | date: '%Y' }} Jiaqing (Allen) Liu{% if site.last_updated %}<span class="footer-sep" aria-hidden="true">·</span>Updated {{ site.time | date: '%b %Y' }}{% endif %}</p>
+    <div class="footer-links">
+      <a href="{{ '/' | relative_url }}#contact" {% include mail_attrs.liquid %}>Email</a>
+      <a href="https://scholar.google.com/citations?user={{ socials.scholar_userid }}&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://www.linkedin.com/in/{{ socials.linkedin_username }}" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/{{ socials.github_username }}" target="_blank" rel="noopener">GitHub</a>
     </div>
-  </footer>
-{% else %}
-  <footer class="sticky-bottom mt-5" role="contentinfo">
-    {% if site.newsletter.enabled %}
-      {% include newsletter.liquid %}
-    {% endif %}
-
-    <div class="container">
-      {{ footer_contents }}
-    </div>
-  </footer>
-{% endif %}
+  </div>
+</footer>

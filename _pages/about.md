@@ -1,36 +1,17 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: Wearable Computing | Multimodal Health AI
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info:
-    # <p>555 your office number</p>
-    # <p>123 your address street</p>
-    # <p>Your City, State 12345</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
+tagline: Multimodal AI for Health & Wearable Computing
+selected_papers: true
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: true
+  limit: 5
 ---
 
-I am a PhD student in Computer Science & Engineering at the University of Notre Dame. I am advised by Dr. <a href='https://tingyucheng.com/about'>Tingyu Cheng</a>, and affiliated with the <a href='https://www.internetofmatter.org/'>Internet of Matter Lab</a>.
+I’m a second-year PhD student in Computer Science & Engineering at the <span class="org">{% include org_logo.liquid name="nd" %}<strong>University of Notre Dame</strong></span>, advised by [Tingyu Cheng](https://tingyucheng.com/about) in the [Internet of Matter Lab](https://www.internetofmatter.org/). My research follows two threads:
 
-My research focuses on wearable computing and multimodal health AI, with an emphasis on transforming everyday objects into health-sensing devices and developing multimodal AI agents and time-series models for real-world health monitoring and intervention.
+- **Multimodal AI for health:** foundation models that learn efficient representations from multimodal wearable data, and AI agents that reason over these signals for health monitoring and improvement.
+- **Health sensing:** turning everyday objects (e.g., clothing) into wearable sensors that capture health signals unobtrusively and continuously in daily life.
 
-Previously, I earned my master's in ECE at the University of Washington, where I worked with Dr. <a href='https://www.cs.washington.edu/people/faculty/shwetak-patel/'>Shwetak Patel</a> at the <a href='https://ubicomplab.cs.washington.edu/'>UW Ubicomp Lab</a>. My work there centered on wearable devices and low-power, continuous health sensing. I also have a background in biomedical engineering and novel material-based sensors.
-
-CV available upon request.
+Previously, I earned my master’s in ECE at the <span class="org">{% include org_logo.liquid name="uw" %}<strong>University of Washington</strong></span>, where I worked with [Shirley Xue](https://qiuyuexue.github.io/) and [Shwetak Patel](https://www.cs.washington.edu/people/faculty/shwetak-patel/) at the [UW Ubicomp Lab](https://ubicomplab.cs.washington.edu/) on wearable devices and algorithms for low-power, continuous health sensing.

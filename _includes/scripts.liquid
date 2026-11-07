@@ -70,10 +70,6 @@
   <script defer src="{{ '/assets/js/leaflet-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
-{% if page.travel_map %}
-  <script type="module" src="{{ '/assets/js/travel-map.js' | relative_url | bust_file_cache }}"></script>
-{% endif %}
-
 {% if page.chart and page.chart.chartjs %}
   <!-- Chart.js -->
   <script

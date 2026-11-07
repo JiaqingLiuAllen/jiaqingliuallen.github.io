@@ -1,0 +1,6 @@
+{%- comment -%}
+  Outputs data-mail="<reversed domain>|<reversed user>". site.js assembles the address on
+  interaction, so the plain address never appears in the page source.
+{%- endcomment -%}
+{%- assign mail_parts = site.data.socials.email | split: '@' -%}
+data-mail="{{ mail_parts[1] | split: '' | reverse | join: '' }}|{{ mail_parts[0] | split: '' | reverse | join: '' }}"

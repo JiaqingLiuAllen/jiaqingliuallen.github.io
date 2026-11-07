@@ -10,12 +10,26 @@ $(document).ready(function () {
     $(this).parent().parent().find(".award.hidden").toggleClass("open");
     $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
   });
-  $("a.bibtex").click(function () {
+  $("button.bibtex").click(function () {
     $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
+    const expanded = $(this).parent().parent().find(".bibtex.hidden").hasClass("open");
+    $(this).attr("aria-expanded", expanded);
+    $(this).parent().parent().find(".bibtex.hidden").attr("aria-hidden", !expanded).prop("hidden", !expanded);
   });
   $("a").removeClass("waves-effect waves-light");
+
+  // Close the mobile menu after choosing a destination or pressing Escape.
+  $("#navbarNav .nav-link").on("click", function () {
+    if (window.matchMedia("(max-width: 767.98px)").matches) $("#navbarNav").collapse("hide");
+  });
+  $("#navbarNav").on("keydown", function (event) {
+    if (event.key === "Escape" && $(this).hasClass("show")) {
+      $(this).collapse("hide");
+      $(".navbar-toggler").trigger("focus");
+    }
+  });
 
   // bootstrap-toc
   if ($("#toc-sidebar").length) {

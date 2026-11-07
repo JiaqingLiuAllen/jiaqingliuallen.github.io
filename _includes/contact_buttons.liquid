@@ -1,0 +1,10 @@
+{%- comment -%}
+  Icon-only buttons for the primary ways to reach Allen (hero and contact band).
+{%- endcomment -%}
+{%- assign socials = site.data.socials -%}
+<div class="contact-buttons{% if include.center %} is-centered{% endif %}"{% if include.hero %} data-hero-actions{% endif %}>
+  <a class="icon-btn icon-btn-primary" href="{{ '/' | relative_url }}#contact" {% include mail_attrs.liquid %} aria-label="Email" data-tip="Email">{% include icon.liquid name="mail" %}</a>
+  <a class="icon-btn icon-btn-scholar" href="https://scholar.google.com/citations?user={{ socials.scholar_userid }}&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar" data-tip="Google Scholar">{% include icon.liquid name="scholar" %}</a>
+  <a class="icon-btn icon-btn-linkedin" href="https://www.linkedin.com/in/{{ socials.linkedin_username }}" target="_blank" rel="noopener" aria-label="LinkedIn" data-tip="LinkedIn">{% include icon.liquid name="linkedin" %}</a>
+  <a class="icon-btn icon-btn-github" href="https://github.com/{{ socials.github_username }}" target="_blank" rel="noopener" aria-label="GitHub" data-tip="GitHub">{% include icon.liquid name="github" %}</a>
+</div>
