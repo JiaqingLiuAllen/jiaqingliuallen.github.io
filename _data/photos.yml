@@ -1,8 +1,19 @@
 # Photos for the Misc page (not shown on the home page).
-# 1. Put the image in assets/img/misc/ (about 2000px on the long side is plenty).
-# 2. Add an entry below, newest first. Only `file` is required.
-#
-# - file: seattle-sunset.jpg
-#   caption: Sunset over Lake Union
-#   place: Seattle, WA
-#   date: Jun 2024        # shown exactly as written
+# 1. Put the image in assets/img/misc/ (about 1800px on the long side, with GPS/EXIF removed).
+# 2. Add an entry below. Only `file` is required; `place` shows on hover and in the viewer.
+#    Optional: `caption` (shown under the photo) and `date` (shown exactly as written).
+
+- file: santa-monica.jpg
+  place: Santa Monica, CA
+- file: seattle-kerry-park.jpg
+  place: Seattle, WA
+- file: cannon-beach.jpg
+  place: Cannon Beach, OR
+- file: antelope-canyon.jpg
+  place: Antelope Canyon, AZ
+- file: seattle-lake-union.jpg
+  place: Seattle, WA
+- file: barcelona.jpg
+  place: Barcelona, Spain
+- file: mexico-city.jpg
+  place: Mexico City, Mexico

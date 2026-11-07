@@ -142,6 +142,7 @@
     var image = lightbox.querySelector("img");
     var caption = lightbox.querySelector("[data-lightbox-caption]");
     var meta = lightbox.querySelector("[data-lightbox-meta]");
+    var place = lightbox.querySelector("[data-lightbox-place]");
     var current = 0;
     var show = function (index) {
       current = (index + openers.length) % openers.length;
@@ -149,7 +150,9 @@
       image.src = opener.dataset.full;
       image.alt = opener.dataset.caption || "";
       caption.textContent = opener.dataset.caption || "";
+      caption.style.display = opener.dataset.caption ? "" : "none";
       meta.textContent = opener.dataset.meta || "";
+      if (place) place.style.display = opener.dataset.meta ? "" : "none";
     };
     openers.forEach(function (opener, index) {
       opener.addEventListener("click", function () {

@@ -555,21 +555,22 @@ ol.bibliography {
   &:not(:has(.pub-thumb)) { grid-template-columns: minmax(0, 1fr); padding: 22px 24px; }
 }
 
+// Thumbnails keep their own aspect ratio (no cropping). Wide figures fill the
+// column; square or tall ones are capped in height and centered.
 .pub-thumb {
-  display: block;
+  display: flex;
+  justify-content: center;
   align-self: start;
-  overflow: hidden;
-  aspect-ratio: 16 / 10;
-  border-radius: 14px;
-  background: var(--surface-2);
   img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: auto;
+    min-width: 0;
+    max-width: 100%;
+    max-height: 168px;
+    border-radius: 14px;
     transition: transform 0.7s var(--ease-out);
   }
 }
-.pub:hover .pub-thumb img { transform: scale(1.045); }
+.pub:hover .pub-thumb img { transform: scale(1.03); }
 
 .pub-body { min-width: 0; padding: 2px 6px 2px 0; }
 
@@ -712,23 +713,12 @@ ol.bibliography {
 }
 
 // Full publication list, grouped by year.
-.pubs-toolbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  margin: -16px 0 32px;
-  font-size: 14px;
-  color: var(--text-3);
-}
-
 .publications-index {
   display: grid;
   grid-template-columns: 80px minmax(0, 1fr);
   gap: 40px 24px;
+  // Not sticky: a sticky year would ride over the whole grid, not just its group.
   h2.bibliography {
-    position: sticky;
-    top: calc(var(--nav-h) + 20px);
     align-self: start;
     padding-top: 16px;
     font-size: 22px;
@@ -796,15 +786,14 @@ ol.bibliography {
   break-inside: avoid;
   margin: 0 0 16px;
   figcaption {
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
     padding: 8px 4px 0;
-    span { font-size: 14px; line-height: 1.35; color: var(--text); }
-    small { font-size: 12px; color: var(--text-3); }
+    font-size: 14px;
+    line-height: 1.35;
+    color: var(--text-2);
   }
 }
 .gallery-open {
+  position: relative;
   display: block;
   width: 100%;
   padding: 0;
@@ -825,6 +814,37 @@ ol.bibliography {
     box-shadow: var(--shadow-2);
     img { transform: scale(1.03); }
   }
+}
+
+// Location pill: appears on hover (and keyboard focus); tapping opens the viewer.
+.gallery-place {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  max-width: calc(100% - 20px);
+  padding: 5px 11px 5px 8px;
+  border-radius: 980px;
+  background: rgba(20, 20, 22, 0.45);
+  -webkit-backdrop-filter: saturate(160%) blur(12px);
+  backdrop-filter: saturate(160%) blur(12px);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.3s ease, transform 0.35s var(--ease-out);
+  .icon { flex: none; font-size: 13px; }
+  span { overflow: hidden; text-overflow: ellipsis; }
+}
+.gallery-open:focus-visible .gallery-place { opacity: 1; transform: none; }
+@media (hover: hover) {
+  .gallery-open:hover .gallery-place { opacity: 1; transform: none; }
 }
 
 .lightbox {
@@ -865,11 +885,22 @@ ol.bibliography {
     pointer-events: auto;
   }
   figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
     pointer-events: auto;
     text-align: center;
-    span { display: block; font-size: 15px; }
-    small { font-size: 13px; color: #a8a8ad; }
   }
+}
+.lightbox-caption { font-size: 15px; }
+.lightbox-place {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #d1d1d6;
+  .icon { font-size: 14px; }
 }
 .lightbox-close {
   position: fixed;
@@ -929,9 +960,10 @@ ol.bibliography {
     letter-spacing: -0.03em;
   }
   p {
-    max-width: 520px;
+    max-width: 640px;
     margin: 10px auto 28px;
     color: var(--text-2);
+    text-wrap: balance;
   }
 }
 .contact-glow {
@@ -959,6 +991,13 @@ ol.bibliography {
     line-height: 1.07;
     letter-spacing: -0.03em;
   }
+}
+.page-title-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px 16px;
 }
 .page-lede {
   max-width: 640px;
@@ -1154,7 +1193,8 @@ ol.bibliography {
   .section-head h2 { font-size: 24px; }
 
   .pub { grid-template-columns: minmax(0, 1fr); gap: 14px; padding: 14px; }
-  .pub-thumb { aspect-ratio: 16 / 9; }
+  .pub-thumb img { max-height: 220px; border-radius: 12px; }
+  .pub:hover .pub-thumb img { transform: none; }
   .pub-body { padding: 0 4px 4px; }
 
   .news-item { align-items: flex-start; padding: 13px 18px; }
@@ -1169,10 +1209,9 @@ ol.bibliography {
 
   .page { padding-top: 36px; }
   .page-lede { font-size: 19px; }
-  .pubs-toolbar { margin-top: -20px; }
   .publications-index {
     grid-template-columns: minmax(0, 1fr);
     gap: 12px;
-    h2.bibliography { position: static; padding-top: 20px; }
+    h2.bibliography { padding-top: 20px; }
   }
 }

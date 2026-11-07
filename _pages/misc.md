@@ -7,17 +7,17 @@ description: Moments I’ve captured outside the lab.
 
 {%- assign photos = site.data.photos -%}
 {%- if photos and photos.size > 0 -%}
-<div class="gallery" data-gallery>
+<div class="gallery">
   {%- for photo in photos -%}
     {%- assign src = photo.file | prepend: '/assets/img/misc/' | relative_url -%}
-    {%- capture meta -%}{{ photo.place }}{% if photo.place and photo.date %} · {% endif %}{% if photo.date %}{{ photo.date }}{% endif %}{%- endcapture -%}
+    {%- capture place -%}{{ photo.place }}{% if photo.place and photo.date %} · {% endif %}{{ photo.date }}{%- endcapture -%}
+    {%- assign place = place | strip -%}
     <figure class="gallery-item" data-reveal style="--delay: {{ forloop.index0 | modulo: 3 }}">
-      <button class="gallery-open" type="button" data-full="{{ src }}" data-caption="{{ photo.caption | escape }}" data-meta="{{ meta | strip | escape }}" aria-label="View photo{% if photo.caption %}: {{ photo.caption | escape }}{% endif %}">
-        <img src="{{ src }}" alt="{{ photo.caption | default: '' | escape }}" loading="lazy" decoding="async">
+      <button class="gallery-open" type="button" data-full="{{ src }}" data-caption="{{ photo.caption | escape }}" data-meta="{{ place | escape }}" aria-label="View photo{% if photo.place %} from {{ photo.place | escape }}{% endif %}">
+        <img src="{{ src }}" alt="{% if photo.caption %}{{ photo.caption | escape }}{% elsif photo.place %}{{ photo.place | escape }}{% else %}Photo{% endif %}" loading="lazy" decoding="async">
+        {%- if place != '' -%}<span class="gallery-place">{% include icon.liquid name="pin" %}<span>{{ place }}</span></span>{%- endif -%}
       </button>
-      {%- if photo.caption or meta != '' -%}
-        <figcaption>{% if photo.caption %}<span>{{ photo.caption }}</span>{% endif %}{% if meta != '' %}<small>{{ meta | strip }}</small>{% endif %}</figcaption>
-      {%- endif -%}
+      {%- if photo.caption -%}<figcaption>{{ photo.caption }}</figcaption>{%- endif -%}
     </figure>
   {%- endfor -%}
 </div>
@@ -25,7 +25,10 @@ description: Moments I’ve captured outside the lab.
   <button class="lightbox-close" type="button" aria-label="Close" data-lightbox-close>×</button>
   <figure>
     <img alt="">
-    <figcaption><span data-lightbox-caption></span><small data-lightbox-meta></small></figcaption>
+    <figcaption>
+      <span class="lightbox-caption" data-lightbox-caption></span>
+      <span class="lightbox-place" data-lightbox-place>{% include icon.liquid name="pin" %}<span data-lightbox-meta></span></span>
+    </figcaption>
   </figure>
 </dialog>
 {%- else -%}

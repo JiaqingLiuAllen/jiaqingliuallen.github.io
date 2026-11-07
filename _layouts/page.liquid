@@ -3,7 +3,12 @@ layout: default
 ---
 <div class="container page">
   <header class="page-header">
-    <h1 class="enter" style="--i: 0">{{ page.title }}</h1>
+    <div class="page-title-row enter" style="--i: 0">
+      <h1>{{ page.title }}</h1>
+      {% if page.scholar_link %}
+        <a class="link-more" href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}&amp;hl=en" target="_blank" rel="noopener">Google Scholar{% include icon.liquid name="chevron" %}</a>
+      {% endif %}
+    </div>
     {% if page.description %}<p class="page-lede enter" style="--i: 1">{{ page.description }}</p>{% endif %}
   </header>
   <div class="page-body">
